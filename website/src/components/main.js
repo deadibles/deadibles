@@ -3,7 +3,7 @@
 function Main() {
   return (
       <div style={s.head}>
-      <h1>Products Currently Available</h1>
+      
     </div>
   );
 }

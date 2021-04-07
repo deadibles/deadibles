@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/deadibles/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/deadibles/static/js/main.3f8b1d34.chunk.js",
-    "main.js.map": "/deadibles/static/js/main.3f8b1d34.chunk.js.map",
+    "main.js": "/deadibles/static/js/main.baf376dd.chunk.js",
+    "main.js.map": "/deadibles/static/js/main.baf376dd.chunk.js.map",
     "runtime-main.js": "/deadibles/static/js/runtime-main.b0d6e5fc.js",
     "runtime-main.js.map": "/deadibles/static/js/runtime-main.b0d6e5fc.js.map",
-    "static/js/2.58846af8.chunk.js": "/deadibles/static/js/2.58846af8.chunk.js",
-    "static/js/2.58846af8.chunk.js.map": "/deadibles/static/js/2.58846af8.chunk.js.map",
+    "static/js/2.74df811b.chunk.js": "/deadibles/static/js/2.74df811b.chunk.js",
+    "static/js/2.74df811b.chunk.js.map": "/deadibles/static/js/2.74df811b.chunk.js.map",
     "static/js/3.44ae55e4.chunk.js": "/deadibles/static/js/3.44ae55e4.chunk.js",
     "static/js/3.44ae55e4.chunk.js.map": "/deadibles/static/js/3.44ae55e4.chunk.js.map",
     "index.html": "/deadibles/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/deadibles/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.58846af8.chunk.js.LICENSE.txt": "/deadibles/static/js/2.58846af8.chunk.js.LICENSE.txt",
+    "static/js/2.74df811b.chunk.js.LICENSE.txt": "/deadibles/static/js/2.74df811b.chunk.js.LICENSE.txt",
     "static/media/LogoSqColor.2fb1a8cc.png": "/deadibles/static/media/LogoSqColor.2fb1a8cc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b0d6e5fc.js",
-    "static/js/2.58846af8.chunk.js",
+    "static/js/2.74df811b.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.3f8b1d34.chunk.js"
+    "static/js/main.baf376dd.chunk.js"
   ]
 }

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deadibles/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/deadibles/static/js/main.fd27a585.chunk.js",
-    "main.js.map": "/deadibles/static/js/main.fd27a585.chunk.js.map",
+    "main.js": "/deadibles/static/js/main.87e1b3bc.chunk.js",
+    "main.js.map": "/deadibles/static/js/main.87e1b3bc.chunk.js.map",
     "runtime-main.js": "/deadibles/static/js/runtime-main.b0d6e5fc.js",
     "runtime-main.js.map": "/deadibles/static/js/runtime-main.b0d6e5fc.js.map",
     "static/js/2.d43d8819.chunk.js": "/deadibles/static/js/2.d43d8819.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/Capsules.cb5f2765.png": "/deadibles/static/media/Capsules.cb5f2765.png",
     "static/media/Gummies.9fdfc696.png": "/deadibles/static/media/Gummies.9fdfc696.png",
     "static/media/LogoSqColor.2fb1a8cc.png": "/deadibles/static/media/LogoSqColor.2fb1a8cc.png",
+    "static/media/Powder.b56657fe.png": "/deadibles/static/media/Powder.b56657fe.png",
     "static/media/butter.2500d108.png": "/deadibles/static/media/butter.2500d108.png",
     "static/media/chocolate.3cb95fd0.png": "/deadibles/static/media/chocolate.3cb95fd0.png",
     "static/media/coconut.1ec3894a.png": "/deadibles/static/media/coconut.1ec3894a.png",
@@ -29,6 +30,6 @@
     "static/js/runtime-main.b0d6e5fc.js",
     "static/js/2.d43d8819.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.fd27a585.chunk.js"
+    "static/js/main.87e1b3bc.chunk.js"
   ]
 }

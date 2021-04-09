@@ -28,6 +28,45 @@ function App() {
 
       <body style={s.shop}>
         <div style={s.card}>
+          <img src={Chocolate} height={200} className='App-logo' alt='logo' />
+          <h2>Chocolate(s)</h2>
+          <p>
+            Medicated chocolate! Can come in liquid, syrup or solid chocolates.
+            May include seasonal themes and flavors, as well as use candy molds
+            for fun shapes!
+          </p>
+        </div>
+
+        <div style={s.card}>
+          <img src={Gummies} height={200} className='App-logo' alt='logo' />
+          <h2>Gummies</h2>
+          <p>
+            Medicated gummies! Uses jello for a base, so they come in standard
+            jello flavors (strawberry, lime, orange, lemon, berry) and various
+            shapes (rings, bottlecaps, animals, etc).
+          </p>
+        </div>
+
+        <div style={s.card}>
+          <img src={Candy} height={200} className='App-logo' alt='logo' />
+          <h2>Candies</h2>
+          <p>
+            Medicated candy! Comes in either lollipop or individual candy form.
+            Flavoring is currently: strawberry or lime, more coming soon
+          </p>
+        </div>
+
+        <div style={s.card}>
+          <img src={Cake} height={200} className='App-logo' alt='logo' />
+          <h2>Baked Goods</h2>
+          <p>
+            Goods may vary, cookies/brownies will be regularly available with
+            seasonal goods for holidays. Quantity ranges from individual
+            servings to requesting an entire cake. More details in the future!
+          </p>
+        </div>
+
+        <div style={s.card}>
           <img src={Butter} height={200} className='App-logo' alt='logo' />
           <h2>Butter</h2>
           <p>Cannabis infused salted butter (In stick form).</p>
@@ -112,58 +151,28 @@ function App() {
         </div>
 
         <div style={s.card}>
+          <img src={Powder} height={200} className='App-logo' alt='logo' />
+          <h2>Canna-Powder</h2>
+          <p>
+            Dehydrated Canna-Oil! Use it in place of oil, or on any heated dish
+            to encorporate cannabis. Acts like a sugar so it dissolves in
+            liquid, and your body absorbs it faster!
+          </p>
+          <p>Fun Facts:</p>
+          <ul>
+            <li>Tasteless</li>
+            <li>Odorless</li>
+            <li>Kicks in 3x faster / within about 15 minutes</li>
+          </ul>
+        </div>
+
+        <div style={s.card}>
           <img src={Capsules} height={200} className='App-logo' alt='logo' />
           <h2>Capsules</h2>
           <p>
             Vegetable-based consumable capsules that have been filled with
             cannapowder. Microdose on the go without the mess of exposed powder!
             Tablets are water soluble so avoid moisture!!
-          </p>
-        </div>
-
-        <div style={s.card}>
-          <img src={Chocolate} height={200} className='App-logo' alt='logo' />
-          <h2>Chocolate(s)</h2>
-          <p>
-            Medicated chocolate! Can come in liquid, syrup or solid chocolates. May include seasonal themes and flavors, as well as use candy molds for fun shapes!
-          </p>
-        </div>
-
-        <div style={s.card}>
-          <img src={Gummies} height={200} className='App-logo' alt='logo' />
-          <h2>Gummies</h2>
-          <p>
-            Medicated gummies! Uses jello for a base, so they come in standard
-            jello flavors (strawberry, lime, orange, lemon, berry) and various
-            shapes (rings, bottlecaps, animals, etc).
-          </p>
-        </div>
-
-        <div style={s.card}>
-          <img src={Powder} height={200} className='App-logo' alt='logo' />
-          <h2>Canna-Powder</h2>
-          <p>
-            Dehydrated Canna-Oil! Use it in place of oil, or on any heated dish
-            to encorporate the canna-oil.
-          </p>
-        </div>
-
-        <div style={s.card}>
-          <img src={Candy} height={200} className='App-logo' alt='logo' />
-          <h2>Candies</h2>
-          <p>
-            Medicated candy! Comes in either lollipop or individual candy form.
-            Flavoring is currently: strawberry or lime, more coming soon
-          </p>
-        </div>
-
-        <div style={s.card}>
-          <img src={Cake} height={200} className='App-logo' alt='logo' />
-          <h2>Baked Goods</h2>
-          <p>
-            Goods may vary, cookies/brownies will be regularly available with
-            seasonal goods for holidays. Quantity ranges from individual
-            servings to requesting an entire cake. More details in the future!
           </p>
         </div>
       </body>
@@ -329,6 +338,32 @@ function App() {
               </ol>
           </li>
         </ul> */}
+      </section>
+
+      <section style={s.faq}>
+        <h1 style={s.centerText}>Resources for the Kitchen!</h1>
+
+        <h2>Online Resources</h2>
+        <ul>
+          <li>
+            [Article] Guide to Cannabutter{' '}
+            <a
+              href='https://www.medicalmarijuanainc.com/complete-guide-cannabutter-make/'
+              title='complete guide'
+            >
+              www.medicalmarijuanainc.com/
+            </a>
+          </li>
+          <li>
+            [Article] Relatively Simple Modernist Marijuana Cooking: Powdered Cannabutter{' '}
+            <a
+              href='https://thefreshtoast.com/recipes/relatively-simple-modernist-marijuana-cooking-powdered-cannabutter/'
+              title='simple modern marijuana cooking'
+            >
+              thefreshtoast.com/
+              </a>
+          </li>
+        </ul>
       </section>
 
       <footer style={s.foot}>

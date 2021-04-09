@@ -1,4 +1,18 @@
-import  LogoSqColor  from './Images/LogoSqColor.png';
+import LogoSqColor from './Images/LogoSqColor.png';
+import Cake from './Images/Cake.png';
+import Candy from './Images/Candy.png';
+import Capsules from './Images/Capsules.png';
+import Coconut from './Images/coconut.png';
+import Grapes from './Images/grapes.png';
+import Gummies from './Images/Gummies.png';
+import Lavender from './Images/lavender.png';
+import Olives from './Images/olives.png';
+// import PLBars from './Images/PurpleLemonBars.png';
+import Butter from './Images/butter.png';
+import Chocolate from './Images/chocolate.png';
+import Vegetables from './Images/vegetable.png';
+
+
 import { BrowserRouter as Router } from 'react-router-dom';
 import ThisMain from './components/main';
 
@@ -6,16 +20,17 @@ function App() {
   return (
     <Router style={s.bg}>
       <div style={s.head}>
-        <img src={LogoSqColor} height={300} className='App-logo' alt='logo' />
+        <img src={LogoSqColor} height={200} className='App-logo' alt='logo' />
       </div>
       <ThisMain />
       <h1>Products Currently Available</h1>
+
       <body style={s.shop}>
         <div style={s.row}>
           <div style={s.card}>
             <img
-              src={LogoSqColor}
-              height={300}
+              src={Butter}
+              height={200}
               className='App-logo'
               alt='logo'
             />
@@ -25,8 +40,8 @@ function App() {
 
           <div style={s.card}>
             <img
-              src={LogoSqColor}
-              height={300}
+              src={Vegetables}
+              height={200}
               className='App-logo'
               alt='logo'
             />
@@ -35,23 +50,13 @@ function App() {
           </div>
 
           <div style={s.card}>
-            <img
-              src={LogoSqColor}
-              height={300}
-              className='App-logo'
-              alt='logo'
-            />
+            <img src={Olives} height={200} className='App-logo' alt='logo' />
             <h2>Olive Oil</h2>
             <p>Details</p>
           </div>
 
           <div style={s.card}>
-            <img
-              src={LogoSqColor}
-              height={300}
-              className='App-logo'
-              alt='logo'
-            />
+            <img src={Coconut} height={200} className='App-logo' alt='logo' />
             <h2>Coconut Oil</h2>
             <p>Details</p>
           </div>
@@ -60,46 +65,31 @@ function App() {
 
         <div style={s.row}>
           <div style={s.card}>
-            <img
-              src={LogoSqColor}
-              height={300}
-              className='App-logo'
-              alt='logo'
-            />
+            <img src={Grapes} height={200} className='App-logo' alt='logo' />
             <h2>Grapeseed Oil</h2>
             <p>Details</p>
           </div>
 
           <div style={s.card}>
-            <img
-              src={LogoSqColor}
-              height={300}
-              className='App-logo'
-              alt='logo'
-            />
+            <img src={Lavender} height={200} className='App-logo' alt='logo' />
             <h2>Canola Oil</h2>
             <p>Details</p>
           </div>
 
           <div style={s.card}>
-            <img
-              src={LogoSqColor}
-              height={300}
-              className='App-logo'
-              alt='logo'
-            />
+            <img src={Capsules} height={200} className='App-logo' alt='logo' />
             <h2>Capsules</h2>
             <p>Details</p>
           </div>
 
           <div style={s.card}>
             <img
-              src={LogoSqColor}
-              height={300}
+              src={Chocolate}
+              height={200}
               className='App-logo'
               alt='logo'
             />
-            <h2>Capsules</h2>
+            <h2>Chocolate(s)</h2>
             <p>Details</p>
           </div>
         </div>
@@ -107,12 +97,7 @@ function App() {
 
         <div style={s.row}>
           <div style={s.card}>
-            <img
-              src={LogoSqColor}
-              height={300}
-              className='App-logo'
-              alt='logo'
-            />
+            <img src={Gummies} height={200} className='App-logo' alt='logo' />
             <h2>Gummies</h2>
             <p>Details</p>
           </div>
@@ -120,7 +105,7 @@ function App() {
           <div style={s.card}>
             <img
               src={LogoSqColor}
-              height={300}
+              height={200}
               className='App-logo'
               alt='logo'
             />
@@ -129,46 +114,48 @@ function App() {
           </div>
 
           <div style={s.card}>
-            <img
-              src={LogoSqColor}
-              height={300}
-              className='App-logo'
-              alt='logo'
-            />
+            <img src={Candy} height={200} className='App-logo' alt='logo' />
             <h2>Candies</h2>
             <p>Details</p>
           </div>
 
           <div style={s.card}>
-            <img
-              src={LogoSqColor}
-              height={300}
-              className='App-logo'
-              alt='logo'
-            />
+            <img src={Cake} height={200} className='App-logo' alt='logo' />
             <h2>Baked Goods</h2>
             <p>Details</p>
           </div>
         </div>
         {/* End of Row 3 */}
 
-        <div style={s.row}>
-          <div style={s.card}>
-            <img
-              src={LogoSqColor}
-              height={300}
-              className='App-logo'
-              alt='logo'
-            />
-            <h2>Chocolate(s)</h2>
-            <p>Details</p>
-          </div>
-        </div>
-        {/* End of Row 3 */}
-
-        {/* <h1>FAQ</h1>
+        <h1>FAQ</h1>
         <ul>
           <li>
+            <h2>How do I use the oils?</h2>
+            <p>
+              The cooking oils work just like your standard cooking oils, and
+              may be applied to a pan or incorporated into food that calls for
+              oil. Because they are already activated, the oil does not require
+              heat to provide it's benefits, and can technically be consumed as
+              is, if so desired. However, we recommend cooking with it! Much
+              tastier!
+            </p>
+          </li>
+          <li>
+            <h2>Cannapowder?</h2>
+            <p>
+              By combining the already infused oils listed here with specific
+              powder, the oil can be dehydrated, allowing it to be applied like
+              a dry spice (sugar/salt/pepper/etc).
+            </p>
+            <p>
+              While you can consume this as-is like the oils, the chalky texture
+              isn't exactly desirable, so either completely blending the
+              material to encorporate into your food, or applying heat to melt
+              it will allow it to soak into the food.
+            </p>
+          </li>
+        </ul>
+        {/*
             <p>How do I order?</p>
             <ol>
               <li>
@@ -277,6 +264,42 @@ function App() {
           </li>
         </ul> */}
       </body>
+
+      <footer>
+        <h1>Footer Section! You've hit rock bottom!</h1>
+        <h2>Image rights:</h2>
+        <div>
+          Icons made by{' '}
+          <a href='https://www.freepik.com' title='Freepik'>
+            Freepik
+          </a>{' '}
+          from{' '}
+          <a href='https://www.flaticon.com/' title='Flaticon'>
+            www.flaticon.com
+          </a>
+        </div>
+        <div>
+          Icons made by{' '}
+          <a href='https://www.flaticon.com/authors/eucalyp' title='Eucalyp'>
+            Eucalyp
+          </a>{' '}
+          from{' '}
+          <a href='https://www.flaticon.com/' title='Flaticon'>
+            www.flaticon.com
+          </a>
+        </div>
+        <div>
+          Icons made by{' '}
+          <a href='https://www.flaticon.com/authors/monkik' title='monkik'>
+            monkik
+          </a>{' '}
+          from{' '}
+          <a href='https://www.flaticon.com/' title='Flaticon'>
+            www.flaticon.com
+          </a>
+        </div>
+        <h1>Bottom Navigation Coming Soon!</h1>
+      </footer>
     </Router>
   );
 }
@@ -294,8 +317,9 @@ const s = {
   shop: {
     display: 'flex',
     flexFlow: 'column',
-    margin: '5px',
+    margin: '5px auto',
     padding: '5px',
+    width: '90%',
     border: '3px dashed black',
   },
   row: {
@@ -307,7 +331,7 @@ const s = {
     display: 'flex',
     flexFlow: 'column',
     alignItems: 'center',
-    width: '500px',
+    width: '20%',
     margin: '0px 20px',
     padding: '3px',
     border: '1px solid black',

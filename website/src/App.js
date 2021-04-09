@@ -12,6 +12,15 @@ import Powder from './Images/Powder.png';
 import Butter from './Images/butter.png';
 import Chocolate from './Images/chocolate.png';
 import Vegetables from './Images/vegetable.png';
+import {
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+  Button,
+} from 'reactstrap';
 
 
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -27,7 +36,23 @@ function App() {
       <h1 style={s.centerText}>Products</h1>
 
       <body style={s.shop}>
-        <div style={s.card}>
+        <Card style={s.card }>
+          <CardImg top width="100%" src={Chocolate} alt='Chocolates' />
+          <CardBody>
+            <CardTitle tag='h5'>Chocolates</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Medicated chocolate! Can come in liquid, syrup or solid
+              chocolates. May include seasonal themes and flavors, as well as
+              use candy molds for fun shapes!
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        {/* <div style={s.card}>
           <img src={Chocolate} height={200} className='App-logo' alt='logo' />
           <h2>Chocolate(s)</h2>
           <p>
@@ -35,7 +60,7 @@ function App() {
             May include seasonal themes and flavors, as well as use candy molds
             for fun shapes!
           </p>
-        </div>
+        </div> */}
 
         <div style={s.card}>
           <img src={Gummies} height={200} className='App-logo' alt='logo' />
@@ -355,13 +380,14 @@ function App() {
             </a>
           </li>
           <li>
-            [Article] Relatively Simple Modernist Marijuana Cooking: Powdered Cannabutter{' '}
+            [Article] Relatively Simple Modernist Marijuana Cooking: Powdered
+            Cannabutter{' '}
             <a
               href='https://thefreshtoast.com/recipes/relatively-simple-modernist-marijuana-cooking-powdered-cannabutter/'
               title='simple modern marijuana cooking'
             >
               thefreshtoast.com/
-              </a>
+            </a>
           </li>
         </ul>
       </section>

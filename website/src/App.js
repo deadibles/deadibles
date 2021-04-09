@@ -8,6 +8,7 @@ import Gummies from './Images/Gummies.png';
 import Lavender from './Images/lavender.png';
 import Olives from './Images/olives.png';
 // import PLBars from './Images/PurpleLemonBars.png';
+import Powder from './Images/Powder.png';
 import Butter from './Images/butter.png';
 import Chocolate from './Images/chocolate.png';
 import Vegetables from './Images/vegetable.png';
@@ -23,19 +24,20 @@ function App() {
         <img src={LogoSqColor} height={200} className='App-logo' alt='logo' />
       </div>
       <ThisMain />
-      <h1>Products Currently Available</h1>
+      <h1 style={s.centerText}>Products Currently Available</h1>
 
       <body style={s.shop}>
         <div style={s.row}>
           <div style={s.card}>
-            <img
-              src={Butter}
-              height={200}
-              className='App-logo'
-              alt='logo'
-            />
+            <img src={Butter} height={200} className='App-logo' alt='logo' />
             <h2>Butter</h2>
-            <p>Details</p>
+            <p>Cannabis infused salted butter (In stick form).</p>
+            <p>Recipe Suggestions:</p>
+            <ul>
+              <li>French Toast</li>
+              <li>Grilled Cheese</li>
+              <li>Mac & Cheese</li>
+            </ul>
           </div>
 
           <div style={s.card}>
@@ -46,19 +48,19 @@ function App() {
               alt='logo'
             />
             <h2>Vegetable Oil</h2>
-            <p>Details</p>
+            <p>Cannabis infused oil, using a vegetable oil base.</p>
           </div>
 
           <div style={s.card}>
             <img src={Olives} height={200} className='App-logo' alt='logo' />
             <h2>Olive Oil</h2>
-            <p>Details</p>
+            <p>Cannabis infused oil, using a olive oil base. Classic extra virgin olive oil, provided by your local grocer.</p>
           </div>
 
           <div style={s.card}>
             <img src={Coconut} height={200} className='App-logo' alt='logo' />
             <h2>Coconut Oil</h2>
-            <p>Details</p>
+            <p>Cannabis infused oil, using a coconut oil base. Cannabis bonds best with coconut oil due to the high fat content, so this oil should provide all the medicine you need! The coconut flavoring REALLY comes through, so this tends to be better for sweet dishes/baking. Use it any way you want however!</p>
           </div>
         </div>
         {/* End of Row 1 */}
@@ -67,30 +69,25 @@ function App() {
           <div style={s.card}>
             <img src={Grapes} height={200} className='App-logo' alt='logo' />
             <h2>Grapeseed Oil</h2>
-            <p>Details</p>
+            <p>Cannabis infused oil, using a grape oil base. More commonly used for oriental  dishes</p>
           </div>
 
           <div style={s.card}>
             <img src={Lavender} height={200} className='App-logo' alt='logo' />
             <h2>Canola Oil</h2>
-            <p>Details</p>
+            <p>Cannabis infused oil, using a canola oil base.</p>
           </div>
 
           <div style={s.card}>
             <img src={Capsules} height={200} className='App-logo' alt='logo' />
             <h2>Capsules</h2>
-            <p>Details</p>
+            <p>Vegetable-based consumable capsules that have been filled with cannapowder. Microdose on the go without the mess of exposed powder! Tablets are water soluble so avoid moisture!!</p>
           </div>
 
           <div style={s.card}>
-            <img
-              src={Chocolate}
-              height={200}
-              className='App-logo'
-              alt='logo'
-            />
+            <img src={Chocolate} height={200} className='App-logo' alt='logo' />
             <h2>Chocolate(s)</h2>
-            <p>Details</p>
+            <p>Medicated chocolate! Can come in liquid, syrup or solid chocolates.</p>
           </div>
         </div>
         {/* End of Row 2 */}
@@ -99,36 +96,50 @@ function App() {
           <div style={s.card}>
             <img src={Gummies} height={200} className='App-logo' alt='logo' />
             <h2>Gummies</h2>
-            <p>Details</p>
+            <p>Medicated gummies! Uses jello for a base, so they come in standard jello flavors (strawberry, lime, orange, lemon, berry) and various shapes (rings, bottlecaps, animals, etc).</p>
           </div>
 
           <div style={s.card}>
             <img
-              src={LogoSqColor}
+              src={Powder}
               height={200}
               className='App-logo'
               alt='logo'
             />
             <h2>Canna-Powder</h2>
-            <p>Details</p>
+            <p>Dehydrated Canna-Oil! Use it in place of oil, or on any heated dish to encorporate the canna-oil.</p>
           </div>
 
           <div style={s.card}>
             <img src={Candy} height={200} className='App-logo' alt='logo' />
             <h2>Candies</h2>
-            <p>Details</p>
+            <p>Medicated candy! Comes in either lollipop or individual candy form. Flavoring is currently: strawberry or lime, more coming soon</p>
           </div>
 
           <div style={s.card}>
             <img src={Cake} height={200} className='App-logo' alt='logo' />
             <h2>Baked Goods</h2>
-            <p>Details</p>
+            <p>Goods may vary, cookies/brownies will be regularly available with seasonal goods for holidays. Quantity ranges from individual servings to requesting an entire cake. More details in the future!</p>
           </div>
         </div>
         {/* End of Row 3 */}
+      </body>
 
-        <h1>FAQ</h1>
+      <section style={s.faq}>
+        <h1 style={s.centerText}>FAQ</h1>
         <ul>
+          <li>
+            <h2>Will I taste the cannabis?</h2>
+            <p>
+              Our infusion process utilizes kitchen hardware designed for cannabis infusion, and our final product is strained through multiple layers of filters, leaving only trace amounts of any plant material and minimizing the cannabis taste to the point where it's only a hint. With enough flavor/seasoning in your food you may not taste the cannabis at all, but it's normal for there to be some flowery-flavor to present itself when encorporating medicine into your infusions.
+            </p>
+          </li>
+          <li>
+            <h2>How do I use cannabutter?</h2>
+            <p>
+              The same way you use butter in your kitchen traditionally works just fine for cannabutter. You can spread it on toast, use it to grease your cooking tools, or mix it into your ingredients. Cannabutter is a very diverse resource that can provide medication through a variety of meals!
+          </p>
+          </li>
           <li>
             <h2>How do I use the oils?</h2>
             <p>
@@ -141,17 +152,16 @@ function App() {
             </p>
           </li>
           <li>
-            <h2>Cannapowder?</h2>
+            <h2>Cannapowder? What's that?</h2>
             <p>
-              By combining the already infused oils listed here with specific
-              powder, the oil can be dehydrated, allowing it to be applied like
+              By combining the already infused oils listed here with specific (commercially available) powder, the oil can be dehydrated, allowing it to be applied like
               a dry spice (sugar/salt/pepper/etc).
             </p>
             <p>
               While you can consume this as-is like the oils, the chalky texture
               isn't exactly desirable, so either completely blending the
               material to encorporate into your food, or applying heat to melt
-              it will allow it to soak into the food.
+              it will allow it to soak into the food, for tastier consumption.
             </p>
           </li>
         </ul>
@@ -263,9 +273,9 @@ function App() {
               </ol>
           </li>
         </ul> */}
-      </body>
+      </section>
 
-      <footer>
+      <footer style={s.foot}>
         <h1>Footer Section! You've hit rock bottom!</h1>
         <h2>Image rights:</h2>
         <div>
@@ -273,25 +283,13 @@ function App() {
           <a href='https://www.freepik.com' title='Freepik'>
             Freepik
           </a>{' '}
-          from{' '}
-          <a href='https://www.flaticon.com/' title='Flaticon'>
-            www.flaticon.com
-          </a>
-        </div>
-        <div>
-          Icons made by{' '}
-          <a href='https://www.flaticon.com/authors/eucalyp' title='Eucalyp'>
-            Eucalyp
-          </a>{' '}
-          from{' '}
-          <a href='https://www.flaticon.com/' title='Flaticon'>
-            www.flaticon.com
-          </a>
-        </div>
-        <div>
-          Icons made by{' '}
+          ,{' '}
           <a href='https://www.flaticon.com/authors/monkik' title='monkik'>
             monkik
+          </a>{' '}
+          , and{' '}
+          <a href='https://www.flaticon.com/authors/eucalyp' title='Eucalyp'>
+            Eucalyp
           </a>{' '}
           from{' '}
           <a href='https://www.flaticon.com/' title='Flaticon'>
@@ -314,6 +312,10 @@ const s = {
   bg: {
     backgroundColor: '#375a2a',
   },
+  centerText: {
+    display: 'flex',
+    justifyContent: 'center',
+  },
   shop: {
     display: 'flex',
     flexFlow: 'column',
@@ -325,7 +327,7 @@ const s = {
   row: {
     display: 'flex',
     justifyContent: 'space-evenly',
-    margin: '10px 0px'
+    margin: '10px 0px',
   },
   card: {
     display: 'flex',
@@ -335,5 +337,16 @@ const s = {
     margin: '0px 20px',
     padding: '3px',
     border: '1px solid black',
+  },
+  foot: {
+    display: 'flex',
+    flexFlow: 'column',
+    alignItems: 'center',
+    backgroundColor: '#375a2a',
+  },
+  faq: {
+    width: '75%',
+    border: 'solid black 5px',
+    margin: '50px auto',
   },
 };

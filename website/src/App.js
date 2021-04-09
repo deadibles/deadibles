@@ -24,10 +24,9 @@ function App() {
         <img src={LogoSqColor} height={200} className='App-logo' alt='logo' />
       </div>
       <ThisMain />
-      <h1 style={s.centerText}>Products Currently Available</h1>
+      <h1 style={s.centerText}>Products</h1>
 
       <body style={s.shop}>
-        <div style={s.row}>
           <div style={s.card}>
             <img src={Butter} height={200} className='App-logo' alt='logo' />
             <h2>Butter</h2>
@@ -62,10 +61,7 @@ function App() {
             <h2>Coconut Oil</h2>
             <p>Cannabis infused oil, using a coconut oil base. Cannabis bonds best with coconut oil due to the high fat content, so this oil should provide all the medicine you need! The coconut flavoring REALLY comes through, so this tends to be better for sweet dishes/baking. Use it any way you want however!</p>
           </div>
-        </div>
-        {/* End of Row 1 */}
 
-        <div style={s.row}>
           <div style={s.card}>
             <img src={Grapes} height={200} className='App-logo' alt='logo' />
             <h2>Grapeseed Oil</h2>
@@ -89,10 +85,7 @@ function App() {
             <h2>Chocolate(s)</h2>
             <p>Medicated chocolate! Can come in liquid, syrup or solid chocolates.</p>
           </div>
-        </div>
-        {/* End of Row 2 */}
 
-        <div style={s.row}>
           <div style={s.card}>
             <img src={Gummies} height={200} className='App-logo' alt='logo' />
             <h2>Gummies</h2>
@@ -121,8 +114,6 @@ function App() {
             <h2>Baked Goods</h2>
             <p>Goods may vary, cookies/brownies will be regularly available with seasonal goods for holidays. Quantity ranges from individual servings to requesting an entire cake. More details in the future!</p>
           </div>
-        </div>
-        {/* End of Row 3 */}
       </body>
 
       <section style={s.faq}>
@@ -318,11 +309,12 @@ const s = {
   },
   shop: {
     display: 'flex',
-    flexFlow: 'column',
+    flexWrap: 'wrap',
     margin: '5px auto',
     padding: '5px',
     width: '90%',
-    border: '3px dashed black',
+    border: '5px dashed black',
+    justifyContent: 'center',
   },
   row: {
     display: 'flex',
@@ -334,9 +326,9 @@ const s = {
     flexFlow: 'column',
     alignItems: 'center',
     width: '20%',
-    margin: '0px 20px',
+    margin: '10px 20px',
     padding: '3px',
-    border: '1px solid black',
+    border: '2px solid black',
   },
   foot: {
     display: 'flex',

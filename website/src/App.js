@@ -27,93 +27,145 @@ function App() {
       <h1 style={s.centerText}>Products</h1>
 
       <body style={s.shop}>
-          <div style={s.card}>
-            <img src={Butter} height={200} className='App-logo' alt='logo' />
-            <h2>Butter</h2>
-            <p>Cannabis infused salted butter (In stick form).</p>
-            <p>Recipe Suggestions:</p>
-            <ul>
-              <li>French Toast</li>
-              <li>Grilled Cheese</li>
-              <li>Mac & Cheese</li>
-            </ul>
-          </div>
+        <div style={s.card}>
+          <img src={Butter} height={200} className='App-logo' alt='logo' />
+          <h2>Butter</h2>
+          <p>Cannabis infused salted butter (In stick form).</p>
+          <p>Recipe Suggestions:</p>
+          <ul>
+            <li>French Toast</li>
+            <li>Grilled Cheese</li>
+            <li>Mac & Cheese</li>
+          </ul>
+        </div>
 
-          <div style={s.card}>
-            <img
-              src={Vegetables}
-              height={200}
-              className='App-logo'
-              alt='logo'
-            />
-            <h2>Vegetable Oil</h2>
-            <p>Cannabis infused oil, using a vegetable oil base.</p>
-          </div>
+        <div style={s.card}>
+          <img src={Vegetables} height={200} className='App-logo' alt='logo' />
+          <h2>Vegetable Oil</h2>
+          <p>Cannabis infused oil, using a vegetable oil base.</p>
+          <p>Recipe Suggestions:</p>
+          <ul>
+            <li>Cupcakes</li>
+            <li>Bread</li>
+            <li>Brownies</li>
+          </ul>
+        </div>
 
-          <div style={s.card}>
-            <img src={Olives} height={200} className='App-logo' alt='logo' />
-            <h2>Olive Oil</h2>
-            <p>Cannabis infused oil, using a olive oil base. Classic extra virgin olive oil, provided by your local grocer.</p>
-          </div>
+        <div style={s.card}>
+          <img src={Olives} height={200} className='App-logo' alt='logo' />
+          <h2>Olive Oil</h2>
+          <p>
+            Cannabis infused oil, using a olive oil base. Classic extra virgin
+            olive oil, provided by your local grocer.
+          </p>
+          <p>Recipe Suggestions:</p>
+          <ul>
+            <li>Bake with it!</li>
+            <li>Cook with it!</li>
+            <li>DIY salad dressing</li>
+          </ul>
+        </div>
 
-          <div style={s.card}>
-            <img src={Coconut} height={200} className='App-logo' alt='logo' />
-            <h2>Coconut Oil</h2>
-            <p>Cannabis infused oil, using a coconut oil base. Cannabis bonds best with coconut oil due to the high fat content, so this oil should provide all the medicine you need! The coconut flavoring REALLY comes through, so this tends to be better for sweet dishes/baking. Use it any way you want however!</p>
-          </div>
+        <div style={s.card}>
+          <img src={Coconut} height={200} className='App-logo' alt='logo' />
+          <h2>Coconut Oil</h2>
+          <p>
+            Cannabis infused oil, using a coconut oil base. Cannabis bonds best
+            with coconut oil due to the high fat content, so this oil should
+            provide all the medicine you need! The coconut flavoring REALLY
+            comes through, so this tends to be better for sweet dishes/baking.
+            Use it any way you want however!
+          </p>
+          <p>Recipe Suggestions:</p>
+          <ul>
+            <li>Bake with it!</li>
+            <li>Cook with it!</li>
+            <li>Even use it as a lotion (or lube, we won't tell.)</li>
+          </ul>
+        </div>
 
-          <div style={s.card}>
-            <img src={Grapes} height={200} className='App-logo' alt='logo' />
-            <h2>Grapeseed Oil</h2>
-            <p>Cannabis infused oil, using a grape oil base. More commonly used for oriental  dishes</p>
-          </div>
+        <div style={s.card}>
+          <img src={Grapes} height={200} className='App-logo' alt='logo' />
+          <h2>Grapeseed Oil</h2>
+          <p>
+            Cannabis infused oil, using a grape oil base. More commonly used for
+            oriental dishes
+          </p>
+          <p>Recipe Suggestions:</p>
+          <ul>
+            <li>High heat/sauté/stir-fry</li>
+            <li>Roasting</li>
+            <li>Grilling</li>
+          </ul>
+        </div>
 
-          <div style={s.card}>
-            <img src={Lavender} height={200} className='App-logo' alt='logo' />
-            <h2>Canola Oil</h2>
-            <p>Cannabis infused oil, using a canola oil base.</p>
-          </div>
+        <div style={s.card}>
+          <img src={Lavender} height={200} className='App-logo' alt='logo' />
+          <h2>Canola Oil</h2>
+          <p>Cannabis infused oil, using a canola oil base.</p>
+          <p>Recipe Suggestions:</p>
+          <ul>
+            <li>Marinade</li>
+            <li>Fried food</li>
+            <li>Mayonnaise / Aioli</li>
+          </ul>
+        </div>
 
-          <div style={s.card}>
-            <img src={Capsules} height={200} className='App-logo' alt='logo' />
-            <h2>Capsules</h2>
-            <p>Vegetable-based consumable capsules that have been filled with cannapowder. Microdose on the go without the mess of exposed powder! Tablets are water soluble so avoid moisture!!</p>
-          </div>
+        <div style={s.card}>
+          <img src={Capsules} height={200} className='App-logo' alt='logo' />
+          <h2>Capsules</h2>
+          <p>
+            Vegetable-based consumable capsules that have been filled with
+            cannapowder. Microdose on the go without the mess of exposed powder!
+            Tablets are water soluble so avoid moisture!!
+          </p>
+        </div>
 
-          <div style={s.card}>
-            <img src={Chocolate} height={200} className='App-logo' alt='logo' />
-            <h2>Chocolate(s)</h2>
-            <p>Medicated chocolate! Can come in liquid, syrup or solid chocolates.</p>
-          </div>
+        <div style={s.card}>
+          <img src={Chocolate} height={200} className='App-logo' alt='logo' />
+          <h2>Chocolate(s)</h2>
+          <p>
+            Medicated chocolate! Can come in liquid, syrup or solid chocolates. May include seasonal themes and flavors, as well as use candy molds for fun shapes!
+          </p>
+        </div>
 
-          <div style={s.card}>
-            <img src={Gummies} height={200} className='App-logo' alt='logo' />
-            <h2>Gummies</h2>
-            <p>Medicated gummies! Uses jello for a base, so they come in standard jello flavors (strawberry, lime, orange, lemon, berry) and various shapes (rings, bottlecaps, animals, etc).</p>
-          </div>
+        <div style={s.card}>
+          <img src={Gummies} height={200} className='App-logo' alt='logo' />
+          <h2>Gummies</h2>
+          <p>
+            Medicated gummies! Uses jello for a base, so they come in standard
+            jello flavors (strawberry, lime, orange, lemon, berry) and various
+            shapes (rings, bottlecaps, animals, etc).
+          </p>
+        </div>
 
-          <div style={s.card}>
-            <img
-              src={Powder}
-              height={200}
-              className='App-logo'
-              alt='logo'
-            />
-            <h2>Canna-Powder</h2>
-            <p>Dehydrated Canna-Oil! Use it in place of oil, or on any heated dish to encorporate the canna-oil.</p>
-          </div>
+        <div style={s.card}>
+          <img src={Powder} height={200} className='App-logo' alt='logo' />
+          <h2>Canna-Powder</h2>
+          <p>
+            Dehydrated Canna-Oil! Use it in place of oil, or on any heated dish
+            to encorporate the canna-oil.
+          </p>
+        </div>
 
-          <div style={s.card}>
-            <img src={Candy} height={200} className='App-logo' alt='logo' />
-            <h2>Candies</h2>
-            <p>Medicated candy! Comes in either lollipop or individual candy form. Flavoring is currently: strawberry or lime, more coming soon</p>
-          </div>
+        <div style={s.card}>
+          <img src={Candy} height={200} className='App-logo' alt='logo' />
+          <h2>Candies</h2>
+          <p>
+            Medicated candy! Comes in either lollipop or individual candy form.
+            Flavoring is currently: strawberry or lime, more coming soon
+          </p>
+        </div>
 
-          <div style={s.card}>
-            <img src={Cake} height={200} className='App-logo' alt='logo' />
-            <h2>Baked Goods</h2>
-            <p>Goods may vary, cookies/brownies will be regularly available with seasonal goods for holidays. Quantity ranges from individual servings to requesting an entire cake. More details in the future!</p>
-          </div>
+        <div style={s.card}>
+          <img src={Cake} height={200} className='App-logo' alt='logo' />
+          <h2>Baked Goods</h2>
+          <p>
+            Goods may vary, cookies/brownies will be regularly available with
+            seasonal goods for holidays. Quantity ranges from individual
+            servings to requesting an entire cake. More details in the future!
+          </p>
+        </div>
       </body>
 
       <section style={s.faq}>
@@ -122,14 +174,25 @@ function App() {
           <li>
             <h2>Will I taste the cannabis?</h2>
             <p>
-              Our infusion process utilizes kitchen hardware designed for cannabis infusion, and our final product is strained through multiple layers of filters, leaving only trace amounts of any plant material and minimizing the cannabis taste to the point where it's only a hint. With enough flavor/seasoning in your food you may not taste the cannabis at all, but it's normal for there to be some flowery-flavor to present itself when encorporating medicine into your infusions.
+              Our infusion process utilizes kitchen hardware designed for
+              cannabis infusion, and our final product is strained through
+              multiple layers of filters, leaving only trace amounts of any
+              plant material and minimizing the cannabis taste to the point
+              where it's only a hint. With enough flavor/seasoning in your food
+              you may not taste the cannabis at all, but it's normal for there
+              to be some flowery-flavor to present itself when encorporating
+              medicine into your infusions.
             </p>
           </li>
           <li>
             <h2>How do I use cannabutter?</h2>
             <p>
-              The same way you use butter in your kitchen traditionally works just fine for cannabutter. You can spread it on toast, use it to grease your cooking tools, or mix it into your ingredients. Cannabutter is a very diverse resource that can provide medication through a variety of meals!
-          </p>
+              The same way you use butter in your kitchen traditionally works
+              just fine for cannabutter. You can spread it on toast, use it to
+              grease your cooking tools, or mix it into your ingredients.
+              Cannabutter is a very diverse resource that can provide medication
+              through a variety of meals!
+            </p>
           </li>
           <li>
             <h2>How do I use the oils?</h2>
@@ -145,8 +208,10 @@ function App() {
           <li>
             <h2>Cannapowder? What's that?</h2>
             <p>
-              By combining the already infused oils listed here with specific (commercially available) powder, the oil can be dehydrated, allowing it to be applied like
-              a dry spice (sugar/salt/pepper/etc).
+              By combining the already infused oils listed here with specific
+              (commercially available) powder, the oil can be dehydrated,
+              allowing it to be applied like a dry spice
+              (sugar/salt/pepper/etc).
             </p>
             <p>
               While you can consume this as-is like the oils, the chalky texture

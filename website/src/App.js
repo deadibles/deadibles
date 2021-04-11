@@ -12,7 +12,7 @@ import Powder from './Images/Powder.png';
 import Butter from './Images/butter.png';
 import Chocolate from './Images/chocolate.png';
 import Vegetables from './Images/vegetable.png';
-import info from './info.json';
+// import info from './info.json';
 import {
   Card,
   CardImg,
@@ -49,7 +49,7 @@ function App() {
               chocolates. May include seasonal themes and flavors, as well as
               use candy molds for fun shapes!
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -65,7 +65,7 @@ function App() {
               jello flavors (strawberry, lime, orange, lemon, berry) and various
               shapes (rings, animals, bottlecaps, etc)
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -80,7 +80,7 @@ function App() {
               Medicated candy! Comes in either lollipop or individual candy
               form. Flavoring is currently: strawberry or lime, more coming soon
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -96,7 +96,7 @@ function App() {
               seasonal goods for holidays. Quantity ranges from individual
               servings to requesting an entire cake. More details in the future!
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -110,7 +110,7 @@ function App() {
               {' '}
               Cannabis infused salted butter (In stick form).
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -124,7 +124,7 @@ function App() {
               {' '}
               Cannabis infused oil, using a vegetable oil base.
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -139,7 +139,7 @@ function App() {
               Cannabis infused oil, using an olive oil base. Classic extra
               virgin olive oil, provided by your local grocer.
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -155,7 +155,7 @@ function App() {
               best with coconut oil due to the high fat content, we use vegan,
               unfiltered coconut oil, so it has that coconuty taste!
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -170,7 +170,7 @@ function App() {
               Cannabis infused oil, using a grape oil base. More commonly used
               for oriental dishes
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -181,7 +181,7 @@ function App() {
               Details:
             </CardSubtitle>
             <CardText> Cannabis infused oil, using a canola oil base.</CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -197,7 +197,7 @@ function App() {
               dish to encorporate cannabis. Acts like a sugar so it dissolves in
               liquid, and your body absorbs it faster!
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -213,7 +213,7 @@ function App() {
               cannapowder. Microdose on the go without the mess of exposed
               powder! Tablets are water soluble so avoid moisture!!
             </CardText>
-            <Button>Button</Button>
+            <Button color='info'>Button</Button>
           </CardBody>
         </Card>{' '}
         {/* <div style={s.card}>

@@ -12,6 +12,7 @@ import Powder from './Images/Powder.png';
 import Butter from './Images/butter.png';
 import Chocolate from './Images/chocolate.png';
 import Vegetables from './Images/vegetable.png';
+import info from './info.json';
 import {
   Card,
   CardImg,
@@ -34,10 +35,9 @@ function App() {
       </div>
       <ThisMain />
       <h1 style={s.centerText}>Products</h1>
-
       <body style={s.shop}>
-        <Card style={s.card }>
-          <CardImg top width="100%" src={Chocolate} alt='Chocolates' />
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Chocolate} alt='Chocolates' />
           <CardBody>
             <CardTitle tag='h5'>Chocolates</CardTitle>
             <CardSubtitle tag='h6' className='mb-2 text-muted'>
@@ -52,6 +52,170 @@ function App() {
             <Button>Button</Button>
           </CardBody>
         </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Gummies} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Gummies</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Medicated gummies! Uses jello for a base and comes in standard
+              jello flavors (strawberry, lime, orange, lemon, berry) and various
+              shapes (rings, animals, bottlecaps, etc)
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Candy} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Candy</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Medicated candy! Comes in either lollipop or individual candy
+              form. Flavoring is currently: strawberry or lime, more coming soon
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Cake} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Baked Goods</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Goods may vary, cookies/brownies will be regularly available with
+              seasonal goods for holidays. Quantity ranges from individual
+              servings to requesting an entire cake. More details in the future!
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Butter} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Butter</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused salted butter (In stick form).
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Vegetables} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Vegetable Oil</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused oil, using a vegetable oil base.
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Olives} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Olive Oil</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused oil, using an olive oil base. Classic extra
+              virgin olive oil, provided by your local grocer.
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Coconut} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Coconut Oil</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused oil, using a coconut oil base. Cannabis bonds
+              best with coconut oil due to the high fat content, we use vegan,
+              unfiltered coconut oil, so it has that coconuty taste!
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Grapes} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Grapeseed Oil</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused oil, using a grape oil base. More commonly used
+              for oriental dishes
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Lavender} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Canola Oil</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText> Cannabis infused oil, using a canola oil base.</CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Powder} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Canna-Powder</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Dehydrated Canna-Oil! Use it in place of oil, or on any heated
+              dish to encorporate cannabis. Acts like a sugar so it dissolves in
+              liquid, and your body absorbs it faster!
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Capsules} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'></CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Vegetable-based consumable capsules that have been filled with
+              cannapowder. Microdose on the go without the mess of exposed
+              powder! Tablets are water soluble so avoid moisture!!
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>{' '}
         {/* <div style={s.card}>
           <img src={Chocolate} height={200} className='App-logo' alt='logo' />
           <h2>Chocolate(s)</h2>
@@ -61,8 +225,7 @@ function App() {
             for fun shapes!
           </p>
         </div> */}
-
-        <div style={s.card}>
+        {/* <div style={s.card}>
           <img src={Gummies} height={200} className='App-logo' alt='logo' />
           <h2>Gummies</h2>
           <p>
@@ -70,18 +233,16 @@ function App() {
             jello flavors (strawberry, lime, orange, lemon, berry) and various
             shapes (rings, bottlecaps, animals, etc).
           </p>
-        </div>
-
-        <div style={s.card}>
+        </div> */}
+        {/* <div style={s.card}>
           <img src={Candy} height={200} className='App-logo' alt='logo' />
           <h2>Candies</h2>
           <p>
             Medicated candy! Comes in either lollipop or individual candy form.
             Flavoring is currently: strawberry or lime, more coming soon
           </p>
-        </div>
-
-        <div style={s.card}>
+        </div> */}
+        {/* <div style={s.card}>
           <img src={Cake} height={200} className='App-logo' alt='logo' />
           <h2>Baked Goods</h2>
           <p>
@@ -89,9 +250,8 @@ function App() {
             seasonal goods for holidays. Quantity ranges from individual
             servings to requesting an entire cake. More details in the future!
           </p>
-        </div>
-
-        <div style={s.card}>
+        </div> */}
+        {/* <div style={s.card}>
           <img src={Butter} height={200} className='App-logo' alt='logo' />
           <h2>Butter</h2>
           <p>Cannabis infused salted butter (In stick form).</p>
@@ -102,7 +262,6 @@ function App() {
             <li>Mac & Cheese</li>
           </ul>
         </div>
-
         <div style={s.card}>
           <img src={Vegetables} height={200} className='App-logo' alt='logo' />
           <h2>Vegetable Oil</h2>
@@ -113,9 +272,8 @@ function App() {
             <li>Bread</li>
             <li>Brownies</li>
           </ul>
-        </div>
-
-        <div style={s.card}>
+        </div> */}
+        {/* <div style={s.card}>
           <img src={Olives} height={200} className='App-logo' alt='logo' />
           <h2>Olive Oil</h2>
           <p>
@@ -129,7 +287,6 @@ function App() {
             <li>DIY salad dressing</li>
           </ul>
         </div>
-
         <div style={s.card}>
           <img src={Coconut} height={200} className='App-logo' alt='logo' />
           <h2>Coconut Oil</h2>
@@ -146,9 +303,8 @@ function App() {
             <li>Cook with it!</li>
             <li>Even use it as a lotion (or lube, we won't tell.)</li>
           </ul>
-        </div>
-
-        <div style={s.card}>
+        </div> */}
+        {/* <div style={s.card}>
           <img src={Grapes} height={200} className='App-logo' alt='logo' />
           <h2>Grapeseed Oil</h2>
           <p>
@@ -162,7 +318,6 @@ function App() {
             <li>Grilling</li>
           </ul>
         </div>
-
         <div style={s.card}>
           <img src={Lavender} height={200} className='App-logo' alt='logo' />
           <h2>Canola Oil</h2>
@@ -173,9 +328,8 @@ function App() {
             <li>Fried food</li>
             <li>Mayonnaise / Aioli</li>
           </ul>
-        </div>
-
-        <div style={s.card}>
+        </div> */}
+        {/* <div style={s.card}>
           <img src={Powder} height={200} className='App-logo' alt='logo' />
           <h2>Canna-Powder</h2>
           <p>
@@ -190,7 +344,6 @@ function App() {
             <li>Kicks in 3x faster / within about 15 minutes</li>
           </ul>
         </div>
-
         <div style={s.card}>
           <img src={Capsules} height={200} className='App-logo' alt='logo' />
           <h2>Capsules</h2>
@@ -199,9 +352,9 @@ function App() {
             cannapowder. Microdose on the go without the mess of exposed powder!
             Tablets are water soluble so avoid moisture!!
           </p>
-        </div>
+        </div> */}
       </body>
-
+      */
       <section style={s.faq}>
         <h1 style={s.centerText}>FAQ</h1>
         <ul>
@@ -364,7 +517,6 @@ function App() {
           </li>
         </ul> */}
       </section>
-
       <section style={s.faq}>
         <h1 style={s.centerText}>Resources for the Kitchen!</h1>
 
@@ -391,7 +543,6 @@ function App() {
           </li>
         </ul>
       </section>
-
       <footer style={s.foot}>
         <h1>Footer Section! You've hit rock bottom!</h1>
         <h2>Image rights:</h2>

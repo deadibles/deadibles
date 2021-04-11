@@ -1,0 +1,58 @@
+{"deadibles":[ {
+    "title": "Chocolates",
+    "details": "Medicated chocolate! Can come in liquid, syrup or solid chocolates. May include seasonal themes and flavors, as well as use candy molds for fun shapes!"
+},
+{
+    "title": "Gummies",
+    "details": "Medicated gummies! Uses jello for a base, so they come in standard jello flavors (strawberry, lime, orange, lemon, berry) and various shapes (rings, bottlecaps, animals, etc)."
+},
+{
+    "title" : "Candy",
+    "details": " Medicated candy! Comes in either lollipop or individual candy form. Flavoring is currently: strawberry or lime, more coming soon"
+},
+{
+    "title": "Baked Goods",
+    "details": "Goods may vary, cookies/brownies will be regularly available with seasonal goods for holidays. Quantity ranges from individual servings to requesting an entire cake. More details in the future!"
+},
+{
+    "title": "Butter",
+    "details":"Cannabis infused salted butter (In stick form)",
+    "recipes": ["French Toast", "Grilled Cheese", "Mac & Cheese"]
+},
+{
+    "title":"Vegetable Oil",
+    "details": "Cannabis infused oil, using a vegetable oil base.",
+    "recipes": ["Cupcakes", "Bread", "Brownies"]
+},
+{
+    "title": "Olive Oil",
+    "details": " Cannabis infused oil, using a olive oil base. Classic extra virgin olive oil, provided by your local grocer.",
+    "recipes": ["Bake with it", "Cook with it", "DIY Salad Dressing"]
+},
+{
+    "title": "Coconut Oil",
+    "details": " Cannabis infused oil, using a coconut oil base. Cannabis bonds best with coconut oil due to the high fat content, we use vegan, unfiltered coconut oil, so it has that coconuty taste!",
+    "recipes": ["Bake with it", "Cook with it", "Even use it as a lotion (or lube, we won't tell)"]
+},
+{
+    "title": "Grapeseed Oil",
+    "details":"Cannabis infused oil, using a grape oil base. More commonly used for oriental dishes",
+    "recipes":["High heat/sauté/stir-fry", "Roasting", "Grilling"]
+},
+{
+    "title": "Canola Oil",
+    "details": "Cannabis infused oil, using a canola oil base.",
+    "recipes":["Marinade", "Fried Foods", "Mayonnaise/Aioli"]
+},
+{
+    "title": "Canna-Powder",
+    "details": " Dehydrated Canna-Oil! Use it in place of oil, or on any heated dish to encorporate cannabis. Acts like a sugar so it dissolves in liquid, and your body absorbs it faster!",
+    "recipes": ["Tasteless", "Odorless", "Kicks in 3x faster / within about 15 minutes"]
+},
+{
+    "title": "Capsules",
+    "details": "Vegetable-based consumable capsules that have been filled with cannapowder. Microdose on the go without the mess of exposed powder! Tablets are water soluble so avoid moisture!!"
+}
+
+
+]}

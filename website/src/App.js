@@ -1,3 +1,4 @@
+import React from 'react';
 import LogoSqColor from './Images/LogoSqColor.png';
 import Cake from './Images/Cake.png';
 import Candy from './Images/Candy.png';
@@ -9,9 +10,10 @@ import Lavender from './Images/lavender.png';
 import Olives from './Images/olives.png';
 // import PLBars from './Images/PurpleLemonBars.png';
 import Powder from './Images/Powder.png';
-import Butter from './Images/butter.png';
+import ButterPic from './Images/butter.png';
 import Chocolate from './Images/chocolate.png';
 import Vegetables from './Images/vegetable.png';
+// import Butter from './pages/Butter';
 // import info from './info.json';
 import {
   Card,
@@ -20,20 +22,36 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  Button,
 } from 'reactstrap';
 
-
 import { BrowserRouter as Router } from 'react-router-dom';
-import ThisMain from './components/main';
 
-function App() {
+import ThisMain from './components/main';
+// import styling from './index.css';
+
+const App = (  ) => {
   return (
     <Router style={s.bg}>
       <div style={s.head}>
         <img src={LogoSqColor} height={200} className='App-logo' alt='logo' />
       </div>
       <ThisMain />
+      <section style={s.faq}>
+        <h1 style={s.centerText}>
+          Welcome to our 1 stop shop of medicinal delectables!
+        </h1>
+        <p>
+          Our website is currently a work in progress. Please bare with us as we
+          try to make the site better for you. While the website may be a work
+          in progress, the products are all available!
+        </p>
+        <h2 style={s.centerText}>Current Site Layout:</h2>
+        <ol>
+          <li>Products</li>
+          <li>FAQ</li>
+          <li>Links & Resources</li>
+        </ol>
+      </section>
       <h1 style={s.centerText}>Products</h1>
       <body style={s.shop}>
         <Card style={s.card}>
@@ -49,7 +67,9 @@ function App() {
               chocolates. May include seasonal themes and flavors, as well as
               use candy molds for fun shapes!
             </CardText>
-            <Button color='info'>Button</Button>
+            {/* <Button color='info'>
+              <Link to='/butter'>More Info</Link>
+            </Button> */}
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -65,7 +85,7 @@ function App() {
               jello flavors (strawberry, lime, orange, lemon, berry) and various
               shapes (rings, animals, bottlecaps, etc)
             </CardText>
-            <Button color='info'>Button</Button>
+            {/* <Button color='info'>Button</Button> */}
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -78,9 +98,10 @@ function App() {
             <CardText>
               {' '}
               Medicated candy! Comes in either lollipop or individual candy
-              form. Flavoring is currently: strawberry or lime, more coming soon
+              form. Flavoring is currently: strawberry or lime, more coming
+              soon!
             </CardText>
-            <Button color='info'>Button</Button>
+            {/* <Button color='info'>Button</Button> */}
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -96,92 +117,7 @@ function App() {
               seasonal goods for holidays. Quantity ranges from individual
               servings to requesting an entire cake. More details in the future!
             </CardText>
-            <Button color='info'>Button</Button>
-          </CardBody>
-        </Card>
-        <Card style={s.card}>
-          <CardImg top width='100%' src={Butter} alt='Gummies' />
-          <CardBody>
-            <CardTitle tag='h5'>Butter</CardTitle>
-            <CardSubtitle tag='h6' className='mb-2 text-muted'>
-              Details:
-            </CardSubtitle>
-            <CardText>
-              {' '}
-              Cannabis infused salted butter (In stick form).
-            </CardText>
-            <Button color='info'>Button</Button>
-          </CardBody>
-        </Card>
-        <Card style={s.card}>
-          <CardImg top width='100%' src={Vegetables} alt='Gummies' />
-          <CardBody>
-            <CardTitle tag='h5'>Vegetable Oil</CardTitle>
-            <CardSubtitle tag='h6' className='mb-2 text-muted'>
-              Details:
-            </CardSubtitle>
-            <CardText>
-              {' '}
-              Cannabis infused oil, using a vegetable oil base.
-            </CardText>
-            <Button color='info'>Button</Button>
-          </CardBody>
-        </Card>
-        <Card style={s.card}>
-          <CardImg top width='100%' src={Olives} alt='Gummies' />
-          <CardBody>
-            <CardTitle tag='h5'>Olive Oil</CardTitle>
-            <CardSubtitle tag='h6' className='mb-2 text-muted'>
-              Details:
-            </CardSubtitle>
-            <CardText>
-              {' '}
-              Cannabis infused oil, using an olive oil base. Classic extra
-              virgin olive oil, provided by your local grocer.
-            </CardText>
-            <Button color='info'>Button</Button>
-          </CardBody>
-        </Card>
-        <Card style={s.card}>
-          <CardImg top width='100%' src={Coconut} alt='Gummies' />
-          <CardBody>
-            <CardTitle tag='h5'>Coconut Oil</CardTitle>
-            <CardSubtitle tag='h6' className='mb-2 text-muted'>
-              Details:
-            </CardSubtitle>
-            <CardText>
-              {' '}
-              Cannabis infused oil, using a coconut oil base. Cannabis bonds
-              best with coconut oil due to the high fat content, we use vegan,
-              unfiltered coconut oil, so it has that coconuty taste!
-            </CardText>
-            <Button color='info'>Button</Button>
-          </CardBody>
-        </Card>
-        <Card style={s.card}>
-          <CardImg top width='100%' src={Grapes} alt='Gummies' />
-          <CardBody>
-            <CardTitle tag='h5'>Grapeseed Oil</CardTitle>
-            <CardSubtitle tag='h6' className='mb-2 text-muted'>
-              Details:
-            </CardSubtitle>
-            <CardText>
-              {' '}
-              Cannabis infused oil, using a grape oil base. More commonly used
-              for oriental dishes
-            </CardText>
-            <Button color='info'>Button</Button>
-          </CardBody>
-        </Card>
-        <Card style={s.card}>
-          <CardImg top width='100%' src={Lavender} alt='Gummies' />
-          <CardBody>
-            <CardTitle tag='h5'>Canola Oil</CardTitle>
-            <CardSubtitle tag='h6' className='mb-2 text-muted'>
-              Details:
-            </CardSubtitle>
-            <CardText> Cannabis infused oil, using a canola oil base.</CardText>
-            <Button color='info'>Button</Button>
+            {/* <Button color='info'>Button</Button> */}
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -197,7 +133,7 @@ function App() {
               dish to encorporate cannabis. Acts like a sugar so it dissolves in
               liquid, and your body absorbs it faster!
             </CardText>
-            <Button color='info'>Button</Button>
+            {/* <Button color='info'>Button</Button> */}
           </CardBody>
         </Card>
         <Card style={s.card}>
@@ -213,148 +149,134 @@ function App() {
               cannapowder. Microdose on the go without the mess of exposed
               powder! Tablets are water soluble so avoid moisture!!
             </CardText>
-            <Button color='info'>Button</Button>
+            {/* <Button color='info'>Button</Button> */}
           </CardBody>
         </Card>{' '}
-        {/* <div style={s.card}>
-          <img src={Chocolate} height={200} className='App-logo' alt='logo' />
-          <h2>Chocolate(s)</h2>
-          <p>
-            Medicated chocolate! Can come in liquid, syrup or solid chocolates.
-            May include seasonal themes and flavors, as well as use candy molds
-            for fun shapes!
-          </p>
-        </div> */}
-        {/* <div style={s.card}>
-          <img src={Gummies} height={200} className='App-logo' alt='logo' />
-          <h2>Gummies</h2>
-          <p>
-            Medicated gummies! Uses jello for a base, so they come in standard
-            jello flavors (strawberry, lime, orange, lemon, berry) and various
-            shapes (rings, bottlecaps, animals, etc).
-          </p>
-        </div> */}
-        {/* <div style={s.card}>
-          <img src={Candy} height={200} className='App-logo' alt='logo' />
-          <h2>Candies</h2>
-          <p>
-            Medicated candy! Comes in either lollipop or individual candy form.
-            Flavoring is currently: strawberry or lime, more coming soon
-          </p>
-        </div> */}
-        {/* <div style={s.card}>
-          <img src={Cake} height={200} className='App-logo' alt='logo' />
-          <h2>Baked Goods</h2>
-          <p>
-            Goods may vary, cookies/brownies will be regularly available with
-            seasonal goods for holidays. Quantity ranges from individual
-            servings to requesting an entire cake. More details in the future!
-          </p>
-        </div> */}
-        {/* <div style={s.card}>
-          <img src={Butter} height={200} className='App-logo' alt='logo' />
-          <h2>Butter</h2>
-          <p>Cannabis infused salted butter (In stick form).</p>
-          <p>Recipe Suggestions:</p>
-          <ul>
-            <li>French Toast</li>
-            <li>Grilled Cheese</li>
-            <li>Mac & Cheese</li>
-          </ul>
-        </div>
-        <div style={s.card}>
-          <img src={Vegetables} height={200} className='App-logo' alt='logo' />
-          <h2>Vegetable Oil</h2>
-          <p>Cannabis infused oil, using a vegetable oil base.</p>
-          <p>Recipe Suggestions:</p>
-          <ul>
-            <li>Cupcakes</li>
-            <li>Bread</li>
-            <li>Brownies</li>
-          </ul>
-        </div> */}
-        {/* <div style={s.card}>
-          <img src={Olives} height={200} className='App-logo' alt='logo' />
-          <h2>Olive Oil</h2>
-          <p>
-            Cannabis infused oil, using a olive oil base. Classic extra virgin
-            olive oil, provided by your local grocer.
-          </p>
-          <p>Recipe Suggestions:</p>
-          <ul>
-            <li>Bake with it!</li>
-            <li>Cook with it!</li>
-            <li>DIY salad dressing</li>
-          </ul>
-        </div>
-        <div style={s.card}>
-          <img src={Coconut} height={200} className='App-logo' alt='logo' />
-          <h2>Coconut Oil</h2>
-          <p>
-            Cannabis infused oil, using a coconut oil base. Cannabis bonds best
-            with coconut oil due to the high fat content, so this oil should
-            provide all the medicine you need! The coconut flavoring REALLY
-            comes through, so this tends to be better for sweet dishes/baking.
-            Use it any way you want however!
-          </p>
-          <p>Recipe Suggestions:</p>
-          <ul>
-            <li>Bake with it!</li>
-            <li>Cook with it!</li>
-            <li>Even use it as a lotion (or lube, we won't tell.)</li>
-          </ul>
-        </div> */}
-        {/* <div style={s.card}>
-          <img src={Grapes} height={200} className='App-logo' alt='logo' />
-          <h2>Grapeseed Oil</h2>
-          <p>
-            Cannabis infused oil, using a grape oil base. More commonly used for
-            oriental dishes
-          </p>
-          <p>Recipe Suggestions:</p>
-          <ul>
-            <li>High heat/sauté/stir-fry</li>
-            <li>Roasting</li>
-            <li>Grilling</li>
-          </ul>
-        </div>
-        <div style={s.card}>
-          <img src={Lavender} height={200} className='App-logo' alt='logo' />
-          <h2>Canola Oil</h2>
-          <p>Cannabis infused oil, using a canola oil base.</p>
-          <p>Recipe Suggestions:</p>
-          <ul>
-            <li>Marinade</li>
-            <li>Fried food</li>
-            <li>Mayonnaise / Aioli</li>
-          </ul>
-        </div> */}
-        {/* <div style={s.card}>
-          <img src={Powder} height={200} className='App-logo' alt='logo' />
-          <h2>Canna-Powder</h2>
-          <p>
-            Dehydrated Canna-Oil! Use it in place of oil, or on any heated dish
-            to encorporate cannabis. Acts like a sugar so it dissolves in
-            liquid, and your body absorbs it faster!
-          </p>
-          <p>Fun Facts:</p>
-          <ul>
-            <li>Tasteless</li>
-            <li>Odorless</li>
-            <li>Kicks in 3x faster / within about 15 minutes</li>
-          </ul>
-        </div>
-        <div style={s.card}>
-          <img src={Capsules} height={200} className='App-logo' alt='logo' />
-          <h2>Capsules</h2>
-          <p>
-            Vegetable-based consumable capsules that have been filled with
-            cannapowder. Microdose on the go without the mess of exposed powder!
-            Tablets are water soluble so avoid moisture!!
-          </p>
-        </div> */}
+        <Card style={s.card}>
+          <CardImg top width='100%' src={ButterPic} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Butter</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused salted butter (In stick form).
+              <p>Recipe Suggestions:</p>
+              <ul>
+                <li>French Toast</li>
+                <li>Grilled Cheese</li>
+                <li>Mac & Cheese</li>
+              </ul>
+            </CardText>
+            {/* <Button color='info'>Button</Button> */}
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Vegetables} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Vegetable Oil</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused oil, using a vegetable oil base.
+              <p>Recipe Suggestions:</p>
+              <ul>
+                <li>Cupcakes</li>
+                <li>Bread</li>
+                <li>Brownies</li>
+              </ul>
+            </CardText>
+            {/* <Button color='info'>Button</Button> */}
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Olives} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Olive Oil</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused oil, using an olive oil base. Classic extra
+              virgin olive oil, provided by your local grocer.
+              <p>Recipe Suggestions:</p>
+              <ul>
+                <li>Bake with it!</li>
+                <li>Cook with it!</li>
+                <li>DIY salad dressing</li>
+              </ul>
+            </CardText>
+            {/* <Button color='info'>Button</Button> */}
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Coconut} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Coconut Oil</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused oil, using a coconut oil base. Cannabis bonds
+              best with coconut oil due to the high fat content, we use vegan,
+              unfiltered coconut oil, so it has that coconuty taste!
+              <p>Recipe Suggestions:</p>
+              <ul>
+                <li>Bake with it!</li>
+                <li>Cook with it!</li>
+                <li>Even use it as a lotion (or lube, we won't tell.)</li>
+              </ul>
+            </CardText>
+            {/* <Button color='info'>Button</Button> */}
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Grapes} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Grapeseed Oil</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused oil, using a grape oil base. More commonly used
+              for oriental dishes.
+              <p>Recipe Suggestions:</p>
+              <ul>
+                <li>High heat/sauté/stir-fry</li>
+                <li>Roasting</li>
+                <li>Grilling</li>
+              </ul>
+            </CardText>
+            {/* <Button color='info'>Button</Button> */}
+          </CardBody>
+        </Card>
+        <Card style={s.card}>
+          <CardImg top width='100%' src={Lavender} alt='Gummies' />
+          <CardBody>
+            <CardTitle tag='h5'>Canola Oil</CardTitle>
+            <CardSubtitle tag='h6' className='mb-2 text-muted'>
+              Details:
+            </CardSubtitle>
+            <CardText>
+              {' '}
+              Cannabis infused oil, using a canola oil base.
+              <p>Recipe Suggestions:</p>
+              <ul>
+                <li>Marinade</li>
+                <li>Fried food</li>
+                <li>Mayonnaise / Aioli</li>
+              </ul>
+            </CardText>
+            {/* <Button color='info'>Button</Button> */}
+          </CardBody>
+        </Card>
       </body>
-      */
       <section style={s.faq}>
         <h1 style={s.centerText}>FAQ</h1>
         <ul>
@@ -521,9 +443,11 @@ function App() {
         <h1 style={s.centerText}>Resources for the Kitchen!</h1>
 
         <h2>Online Resources</h2>
+
+        <h4>Articles</h4>
         <ul>
           <li>
-            [Article] Guide to Cannabutter{' '}
+            Guide to Cannabutter{' '}
             <a
               href='https://www.medicalmarijuanainc.com/complete-guide-cannabutter-make/'
               title='complete guide'
@@ -532,17 +456,141 @@ function App() {
             </a>
           </li>
           <li>
-            [Article] Relatively Simple Modernist Marijuana Cooking: Powdered
-            Cannabutter{' '}
+            The Beginner's Guide to Edibles{' '}
             <a
-              href='https://thefreshtoast.com/recipes/relatively-simple-modernist-marijuana-cooking-powdered-cannabutter/'
-              title='simple modern marijuana cooking'
+              href='https://lifehacker.com/the-beginners-guide-to-edibles-1821047006'
+              title='beginners guide to edibles'
             >
-              thefreshtoast.com/
+              www.lifehacker.com/
+            </a>
+          </li>
+          <li>
+            [Edibles] Products & How to Consume{' '}
+            <a
+              href='https://weedmaps.com/learn/products-and-how-to-consume/edibles'
+              title=''
+            >
+              www.weedmaps.com/
+            </a>
+          </li>
+          <ul>
+            {' '}
+            <h4>Cannapowder</h4>
+            <li>
+              Relatively Simple Modernist Marijuana Cooking: Powdered
+              Cannabutter{' '}
+              <a
+                href='https://thefreshtoast.com/recipes/relatively-simple-modernist-marijuana-cooking-powdered-cannabutter/'
+                title='simple modern marijuana cooking'
+              >
+                thefreshtoast.com/
+              </a>
+            </li>
+            <li>
+              cannabis oil powder has 15 minute effect time{' '}
+              <a
+                href='https://www.rxleaf.com/cannabis-oil-powder-for-edibles-that-kick-at-15-minutes/'
+                title=''
+              >
+                www.rxleaf.com/
+              </a>
+            </li>
+            <li>
+              3x faster edibles using cannabis oil powder{' '}
+              <a
+                href='https://www.cannadish.net/edibles-high-will-kick-in-3-times-as-fast-using-cannabis-oil-powder/'
+                title=''
+              >
+                www.cannadish.net/
+              </a>
+            </li>
+          </ul>
+        </ul>
+
+        <h4>Websites</h4>
+        <ul>
+          <li>
+            recipes, guides, products & more{' '}
+            <a
+              href='https://www.originalweedrecipes.com/'
+              title='recipes, guides, products & more'
+            >
+              www.originalweedrecipes.com/
+            </a>
+          </li>
+          <li>
+            Cheri Sicard, Featured on High Times, Fox, Time & more{' '}
+            <a href='https://cannabischeri.com/' title='cannabis cheri'>
+              www.cannabischeri.com/
+            </a>
+          </li>
+          <li>
+            Wake & Bake (includes vegan recipes){' '}
+            <a href='https://wakeandbake.co/' title='wake and bake'>
+              www.wakeandbake.co/
+            </a>
+          </li>
+          <li>
+            Eat your cannabis!{' '}
+            <a href='https://eatyourcannabis.com/' title='eat your cannabis'>
+              www.eatyourcannabis.com/
+            </a>
+          </li>
+        </ul>
+
+        <h2>Books (for purchase)</h2>
+        <ul>
+          <li>
+            Cooking With Cannabis, by Laurie Wolf | $10 Hardcover | $10 Kindle |
+            $14.30 Paperback{' '}
+            <a
+              href='https://www.amazon.com/dp/1631591169?tag=dtthemanual-20&th=1&psc=1&ascsubtag=1616431153379rr6s&geniuslink=true'
+              title='Cooking With Cannabis'
+            >
+              www.amazon.com/.../cookingwithcannabis/
+            </a>
+          </li>
+          <li>
+            Bong Apétit, by MUNCHIES | $16 Kindle | $27 Hardcover{' '}
+            <a
+              href='https://www.amazon.com/dp/0399580107?tag=dtthemanual-20&th=1&psc=1&ascsubtag=1616431153379yz24&geniuslink=true'
+              title='Bong Apetit'
+            >
+              www.amazon.com/.../bongapetit
+            </a>
+          </li>
+          <li>
+            Cannabis Cocktails, Mocktails & More, by Warren Bobrow | $12 Kindle
+            | $14.20 Hardcover{' '}
+            <a
+              href='https://www.amazon.com/dp/1592337341?tag=dtthemanual-20&th=1&psc=1&ascsubtag=161643115338072a5&geniuslink=true'
+              title='Cannabis Cocktails & More'
+            >
+              www.amazon.com/.../cannabiscocktailsandmore
+            </a>
+          </li>
+          <li>
+            The Vegan Cannabis Cookbook, by Eva Hammond | $2 Kindle | $9
+            Paperback{' '}
+            <a
+              href='https://www.amazon.com/Vegan-Cannabis-Cookbook-Delicious-Marijuana-Infused/dp/9492788101/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr='
+              title='Vegan Cannabis Cookbook'
+            >
+              www.amazon.com/.../thevegancannabiscookbook
+            </a>
+          </li>
+          <li>
+            Sweet Mary Jane, by Karin Lazarus | $22 Kindle | $28 Hardcover{' '}
+            <a
+              href='https://www.amazon.com/dp/158333565X?tag=dtthemanual-20&th=1&psc=1&ascsubtag=1616431153380ovis&geniuslink=true'
+              title='Sweet Mary Jane'
+            >
+              www.amazon.com/.../sweetmaryjane
             </a>
           </li>
         </ul>
       </section>
+
       <footer style={s.foot}>
         <h1>Footer Section! You've hit rock bottom!</h1>
         <h2>Image rights:</h2>
@@ -568,7 +616,7 @@ function App() {
       </footer>
     </Router>
   );
-}
+};
 
 export default App;
 const s = {

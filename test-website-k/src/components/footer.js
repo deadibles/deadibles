@@ -17,7 +17,6 @@ const FooterPage = () => {
 export default FooterPage;
 const s = {
   footer: {
-    position: 'absolute',
     left: '0',
     bottom: '0',
     right: '0',

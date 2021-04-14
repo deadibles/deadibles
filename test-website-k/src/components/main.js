@@ -7,7 +7,7 @@ import Chocolates from '../pages/chocolates';
 import Canola from '../pages/canOil';
 import Olive from '../pages/oOil';
 import Vegetable from '../pages/vOil';
-import Butter from '../pages/baked';
+import Butter from '../pages/butter';
 import BakedGoods from '../pages/baked';
 import Candy from '../pages/candy';
 import Gummies from '../pages/gummies';
@@ -29,7 +29,6 @@ const Main = () => {
         <Route exact path='/canola-oil' component={Canola} />
         <Route exact path='/olive-oil' component={Olive} />
         <Route exact path='/vegetable-oil' component={Vegetable} />
-        <Route exact path='/butter' component={Butter} />
         <Route exact path='/baked-goods' component={BakedGoods} />
         <Route exact path='/candy' component={Candy} />
         <Route exact path='/gummies' component={Gummies} />
@@ -37,6 +36,7 @@ const Main = () => {
         <Route exact path='/capsules' component={Capsules} />
         <Route exact path='/grapeseed-oil' component={Grapeseed} />
         <Route exact path='/coconut-oil' component={Coconut} />
+        <Route exact path='/butter' component={Butter} />
       </Fragment>
     );
 };

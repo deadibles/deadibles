@@ -1,0 +1,15 @@
+
+img {
+    width: 50%
+}
+.button, .button:hover, .button:link, .button:visited, .button:active {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    /* background-color: teal; */
+    /* background-image: url(../images/Bg.png); */
+    /* background-color: teal; */
+    height: 100rem;
+}

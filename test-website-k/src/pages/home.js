@@ -1,7 +1,11 @@
+// import bg from '../images/Bg.png';
+import './chocolates.css';
+
 const Home = () => {
     return (
-        <section className="home"></section>
-
+      <div className="container">
+        <h1>This is red car</h1>
+      </div>
     );
 };
 

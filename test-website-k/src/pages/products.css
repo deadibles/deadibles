@@ -1,0 +1,49 @@
+  .card {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 250px;
+    /* min-width: 400px !important;
+    max-width: 500px !important; */
+    margin: 10px 20px;
+    padding: 3px;
+    background-color: #ECF0F1 !important;
+    border: 2px solid black;
+  }
+
+/* CardImage {
+  width: 1rem;
+} */
+
+.card img {
+  /* width: 20rem !important; */
+  width: 100%;
+}
+  
+.button,
+.button:hover,
+.button:link,
+.button:visited,
+.button:active {
+  text-decoration: none;
+  color: white;
+}
+
+  
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .shop {
+    flex-flow: column;
+  }
+
+  .card {
+    width: 90%;
+  }
+}

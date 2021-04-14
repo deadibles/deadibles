@@ -10,7 +10,7 @@ import {
   NavbarText,
 } from 'reactstrap';
 import PropTypes from 'prop-types';
-import logo from '../images/LogoSqColor.png'
+import logo from '../images/LogoLong72.png'
 
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -69,12 +69,13 @@ NavbarText.propTypes = {
 export default Header;
 const s = {
   nav: {
-        backgroundColor: '#375a2a',
-        color: '#000'
-    },
-    img: {
-        width: '100%',
-        margin:'0',
-        padding: '0'
-    }
+    backgroundColor: '#416032',
+    color: '#000',
+  },
+  img: {
+    width: '100%',
+    margin: '0',
+    padding: '0',
+    border: 'solid 2px #E6AF2E',
+  },
 };

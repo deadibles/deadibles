@@ -26,3 +26,33 @@ section p {
 .butRef {
     margin: 20px !important;
 }
+.kari{
+    display: flex;
+    text-align: center !important;
+    margin: 2rem;
+}
+.HomeBtn{
+    /* margin-right: 6rem !important;
+    margin-top:10rem !important; */
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    color: white;
+    font-size:2rem;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+
+.homeBDiv {
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .homeBDiv {
+        bottom: 10rem;
+    }
+}

@@ -37,10 +37,11 @@ section p {
     padding: 1rem 2rem;
     border: 2px solid black;
     color: white;
-    font-size:2rem;
-    font-weight: bold;
+    font-size:2rem !important;
+    font-weight: bold !important;
     text-transform:uppercase;
     text-decoration: none;
+    border: 5px solid #E6AF2E !important;
 }
 
 .homeBDiv {
@@ -54,5 +55,8 @@ section p {
 @media only screen and (max-width: 800px) {
     .homeBDiv {
         bottom: 10rem;
+    }
+    .HomeBtn{
+        font-size: 1rem !important;
     }
 }

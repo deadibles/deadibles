@@ -12,7 +12,7 @@ const Chocolates = () => {
   return (
     <section className='text-center my-5'>
       <h2 className='h1-responsive font-weight-bold my-5'>Chocolates</h2>
-      <p className='lead grey-text w-responsive mx-auto mb-5'>
+      <p className='lead black-text w-responsive mx-auto mb-5'>
         Medicated chocolate! Can come in liquid, syrup or solid chocolates. May
         include seasonal themes and flavors, as well as use candy molds for fun
         shapes!
@@ -44,7 +44,7 @@ const Chocolates = () => {
         </MDBCol>
       </MDBRow>
       <Link className='button' to='/products'>
-        <Button>Back to Products</Button>
+        <Button className='butRef'>Back to Products</Button>
       </Link>{' '}
     </section>
   );

@@ -7,7 +7,7 @@ const Baked = () => {
   return (
     <section className='text-center my-5'>
       <h2 className='h1-responsive font-weight-bold my-5'>Baked Goods</h2>
-      <p className='lead grey-text w-responsive mx-auto mb-5'>
+      <p className='lead black-text w-responsive mx-auto mb-5'>
         Goods may vary, cookies/brownies will be regularly available with
         seasonal goods for holidays. Quantity ranges from individual servings to
         requesting an entire cake. More details in the future!
@@ -39,7 +39,7 @@ const Baked = () => {
         </MDBCol>
       </MDBRow> */}
       <Link className='button' to='/products'>
-        <Button>Back to Products</Button>
+        <Button className='butRef'>Back to Products</Button>
       </Link>{' '}
     </section>
   );

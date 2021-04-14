@@ -7,7 +7,7 @@ const Candy = () => {
   return (
     <section className='text-center my-5'>
       <h2 className='h1-responsive font-weight-bold my-5'>Candy</h2>
-      <p className='lead grey-text w-responsive mx-auto mb-5'>
+      <p className='lead black-text w-responsive mx-auto mb-5'>
         Medicated candy! Comes in either lollipop or individual candy form.
         Flavoring is currently: strawberry or lime, more coming soon!
       </p>
@@ -38,7 +38,7 @@ const Candy = () => {
         </MDBCol>
       </MDBRow> */}
       <Link className='button' to='/products'>
-        <Button>Back to Products</Button>
+        <Button className='butRef'>Back to Products</Button>
       </Link>{' '}
     </section>
   );

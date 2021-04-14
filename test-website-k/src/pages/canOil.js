@@ -8,7 +8,7 @@ const CanOil = () => {
   return (
     <section className='text-center my-5'>
       <h2 className='h1-responsive font-weight-bold my-5'>Canola Oil</h2>
-      <p className='lead grey-text w-responsive mx-auto mb-5'>
+      <p className='lead black-text w-responsive mx-auto mb-5'>
         Cannabis infused oil, using a canola oil base. Recipe suggestions below!
       </p>
       <MDBRow>
@@ -35,7 +35,7 @@ const CanOil = () => {
         </MDBCol>
       </MDBRow>
       <Link className='button' to='/products'>
-        <Button>Back to Products</Button>
+        <Button className='butRef'>Back to Products</Button>
       </Link>{' '}
     </section>
   );

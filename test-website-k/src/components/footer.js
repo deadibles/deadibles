@@ -21,8 +21,9 @@ const s = {
     bottom: '0',
     right: '0',
     backgroundColor: '#375a2a',
-    },
-    text: {
-        color: '#fff',
-    }
+    borderTop: '1px solid #e7af2e !important',
+  },
+  text: {
+    color: '#e7af2e',
+  },
 };

@@ -71,6 +71,7 @@ const s = {
   nav: {
     backgroundColor: '#416032',
     color: '#000',
+    borderBottom: '1px solid #e7af2e'
   },
   img: {
     width: '100%',

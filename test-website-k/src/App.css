@@ -6,7 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.btn-secondary {
+  background-color: #4D2A5A !important;
 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,4 +39,3 @@
     transform: rotate(360deg);
   }
 }
-

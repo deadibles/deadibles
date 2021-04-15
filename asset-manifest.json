@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/deadibles/static/css/main.08cc9a19.chunk.css",
-    "main.js": "/deadibles/static/js/main.ce9bea75.chunk.js",
-    "main.js.map": "/deadibles/static/js/main.ce9bea75.chunk.js.map",
-    "runtime-main.js": "/deadibles/static/js/runtime-main.db079211.js",
-    "runtime-main.js.map": "/deadibles/static/js/runtime-main.db079211.js.map",
+    "main.css": "/deadibles/static/css/main.a97e52b9.chunk.css",
+    "main.js": "/deadibles/static/js/main.20d43eba.chunk.js",
+    "main.js.map": "/deadibles/static/js/main.20d43eba.chunk.js.map",
+    "runtime-main.js": "/deadibles/static/js/runtime-main.ac872340.js",
+    "runtime-main.js.map": "/deadibles/static/js/runtime-main.ac872340.js.map",
     "static/css/2.d58e0023.chunk.css": "/deadibles/static/css/2.d58e0023.chunk.css",
-    "static/js/2.16047f10.chunk.js": "/deadibles/static/js/2.16047f10.chunk.js",
-    "static/js/2.16047f10.chunk.js.map": "/deadibles/static/js/2.16047f10.chunk.js.map",
-    "static/js/3.13fe0ea1.chunk.js": "/deadibles/static/js/3.13fe0ea1.chunk.js",
-    "static/js/3.13fe0ea1.chunk.js.map": "/deadibles/static/js/3.13fe0ea1.chunk.js.map",
+    "static/js/2.01afb4d2.chunk.js": "/deadibles/static/js/2.01afb4d2.chunk.js",
+    "static/js/2.01afb4d2.chunk.js.map": "/deadibles/static/js/2.01afb4d2.chunk.js.map",
+    "static/js/3.55878b61.chunk.js": "/deadibles/static/js/3.55878b61.chunk.js",
+    "static/js/3.55878b61.chunk.js.map": "/deadibles/static/js/3.55878b61.chunk.js.map",
     "index.html": "/deadibles/index.html",
     "static/css/2.d58e0023.chunk.css.map": "/deadibles/static/css/2.d58e0023.chunk.css.map",
-    "static/css/main.08cc9a19.chunk.css.map": "/deadibles/static/css/main.08cc9a19.chunk.css.map",
-    "static/js/2.16047f10.chunk.js.LICENSE.txt": "/deadibles/static/js/2.16047f10.chunk.js.LICENSE.txt",
+    "static/css/main.a97e52b9.chunk.css.map": "/deadibles/static/css/main.a97e52b9.chunk.css.map",
+    "static/js/2.01afb4d2.chunk.js.LICENSE.txt": "/deadibles/static/js/2.01afb4d2.chunk.js.LICENSE.txt",
     "static/media/index.css": "/deadibles/static/media/Bg.b4505d30.png",
     "static/media/Cake.9c968c66.png": "/deadibles/static/media/Cake.9c968c66.png",
     "static/media/Candy.ff365ed7.png": "/deadibles/static/media/Candy.ff365ed7.png",
@@ -38,10 +38,10 @@
     "static/media/vegetable.767c66e2.png": "/deadibles/static/media/vegetable.767c66e2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.db079211.js",
+    "static/js/runtime-main.ac872340.js",
     "static/css/2.d58e0023.chunk.css",
-    "static/js/2.16047f10.chunk.js",
-    "static/css/main.08cc9a19.chunk.css",
-    "static/js/main.ce9bea75.chunk.js"
+    "static/js/2.01afb4d2.chunk.js",
+    "static/css/main.a97e52b9.chunk.css",
+    "static/js/main.20d43eba.chunk.js"
   ]
 }

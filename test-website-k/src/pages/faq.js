@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink as Link } from 'react-router-dom';
 import { Button } from 'reactstrap';
 const Faq = () => {
     return (

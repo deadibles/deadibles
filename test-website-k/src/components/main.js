@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Route } from 'react-router-dom';
 import FAQ from '../pages/faq';
 import Products from '../pages/products';
@@ -21,23 +21,23 @@ import Coconut from '../pages/cocoOil';
 
 const Main = () => {
     return (
-      <Fragment>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/products' component={Products} />
-        <Route exact path='/faq' component={FAQ} />
-        <Route exact path='/chocolate' component={Chocolates} />
-        <Route exact path='/canola-oil' component={Canola} />
-        <Route exact path='/olive-oil' component={Olive} />
-        <Route exact path='/vegetable-oil' component={Vegetable} />
-        <Route exact path='/baked-goods' component={BakedGoods} />
-        <Route exact path='/candy' component={Candy} />
-        <Route exact path='/gummies' component={Gummies} />
-        <Route exact path='/canna-powder' component={Powder} />
-        <Route exact path='/capsules' component={Capsules} />
-        <Route exact path='/grapeseed-oil' component={Grapeseed} />
-        <Route exact path='/coconut-oil' component={Coconut} />
-        <Route exact path='/butter' component={Butter} />
-      </Fragment>
+      <div>
+        <Route path='/' component={Home} />
+        <Route path='/products' component={Products} />
+        <Route path='/faq' component={FAQ} />
+        <Route path='/chocolate' component={Chocolates} />
+        <Route path='/canola-oil' component={Canola} />
+        <Route path='/olive-oil' component={Olive} />
+        <Route path='/vegetable-oil' component={Vegetable} />
+        <Route path='/baked-goods' component={BakedGoods} />
+        <Route path='/candy' component={Candy} />
+        <Route path='/gummies' component={Gummies} />
+        <Route path='/canna-powder' component={Powder} />
+        <Route path='/capsules' component={Capsules} />
+        <Route path='/grapeseed-oil' component={Grapeseed} />
+        <Route path='/coconut-oil' component={Coconut} />
+        <Route path='/butter' component={Butter} />
+      </div>
     );
 };
 

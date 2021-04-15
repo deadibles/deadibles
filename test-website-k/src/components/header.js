@@ -6,11 +6,12 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   NavbarText,
 } from 'reactstrap';
 import PropTypes from 'prop-types';
-import logo from '../images/LogoLong72.png'
+import logo from '../images/LogoLong72.png';
+import { NavLink as Link } from 'react-router-dom';
+import './header.css';
 
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,17 +28,19 @@ const Header = (props) => {
             navbar
           >
             <NavItem>
-              <NavLink href='/products/'>
+              <Link className='mNav' to='/products'>
                 <h1>Products</h1>
-              </NavLink>
+              </Link>
             </NavItem>
-            <NavbarBrand className='w-25' href='/'>
-              <img style={s.img} src={logo} alt='logo' />
+            <NavbarBrand className='w-25'>
+              <Link className='mNav' to='/'>
+                <img style={s.img} src={logo} alt='logo' />
+              </Link>
             </NavbarBrand>
             <NavItem>
-              <NavLink href='/faq/'>
+              <Link className='mNav' to='/faq'>
                 <h1>FAQ</h1>
-              </NavLink>
+              </Link>
             </NavItem>
           </Nav>
         </Collapse>
@@ -71,7 +74,9 @@ const s = {
   nav: {
     backgroundColor: '#416032',
     color: '#000',
-    borderBottom: '1px solid #e7af2e'
+    borderBottom: '1px solid #e7af2e',
+    textDecoration: 'none',
+
   },
   img: {
     width: '100%',

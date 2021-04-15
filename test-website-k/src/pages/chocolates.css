@@ -43,7 +43,9 @@ section p {
     text-decoration: none;
     border: 5px solid #E6AF2E !important;
 }
-
+.HomeBtn:hover{
+    color: #E6AF2E;
+}
 .homeBDiv {
     z-index: 10;
     display: flex;

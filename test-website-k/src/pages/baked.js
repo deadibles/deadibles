@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {NavLink as Link } from 'react-router-dom';
 // import { MDBRow, MDBCol } from 'mdbreact';
 import { Button } from 'reactstrap';
 import './chocolates.css';

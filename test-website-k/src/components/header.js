@@ -33,7 +33,7 @@ const Header = (props) => {
               </Link>
             </NavItem>
             <NavbarBrand className='w-25'>
-              <Link className='mNav' to='/'>
+              <Link className='mNav' to='/products'>
                 <img style={s.img} src={logo} alt='logo' />
               </Link>
             </NavbarBrand>

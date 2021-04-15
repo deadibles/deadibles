@@ -1,0 +1,77 @@
+img {
+    width: 50%
+}
+
+.button,
+.button:hover,
+.button:link,
+.button:visited,
+.button:active {
+    text-decoration: none;
+    color: white;
+
+}
+
+.container {
+    /* background-color: teal; */
+    /* background-image: url(../images/Bg.png); */
+    /* background-color: teal; */
+    height: 100rem;
+}
+
+.text-center .my-5 {
+    background-color: #ECF0F1 !important;
+}
+
+section {
+    background-color: #ECF0F1 !important;
+}
+
+section p {
+    color: black !important;
+}
+
+.butRef {
+    margin: 20px !important;
+}
+
+.kari {
+    display: flex;
+    text-align: center !important;
+    margin: 2rem;
+}
+
+.HomeBtn {
+    /* margin-right: 6rem !important;
+    margin-top:10rem !important; */
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    color: white;
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 5px solid #E6AF2E !important;
+}
+
+.HomeBtn:hover {
+    color: #E6AF2E;
+}
+
+.homeBDiv {
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .homeBDiv {
+        bottom: 10rem;
+    }
+
+    .HomeBtn {
+        font-size: 1rem !important;
+    }
+}

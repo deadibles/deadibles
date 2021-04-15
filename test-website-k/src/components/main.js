@@ -22,7 +22,6 @@ import Coconut from '../pages/cocoOil';
 const Main = () => {
     return (
       <div>
-        <Route path='/products' component={Home} />
         <Route path='/products' component={Products} />
         <Route path='/faq' component={FAQ} />
         <Route path='/chocolate' component={Chocolates} />

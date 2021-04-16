@@ -11,18 +11,18 @@ import {
   Button,
 } from 'reactstrap';
 import PropTypes from 'prop-types';
-import Gummies from '../images/Gummies.png';
-import Chocolate from '../images/chocolate.png';
-import Candy from '../images/Candy.png';
-import Baked from '../images/Cake.png';
-import Powder from '../images/Powder.png';
-import Capsules from '../images/Capsules.png';
-import vOil from '../images/vegetable.png';
-import oOil from '../images/olives.png';
-import cocoOil from '../images/coconut.png';
-import canOil from '../images/lavender.png';
-import gOil from '../images/grapes.png';
-import Butter from '../images/butter.png';
+import Gummies from '../images/Gummies.jpg';
+import Chocolate from '../images/chocolate.jpg';
+import Candy from '../images/Candy.jpg';
+import Baked from '../images/Cake.jpg';
+import Powder from '../images/Powder.jpg';
+import Capsules from '../images/Capsules.jpg';
+import vOil from '../images/vegetable.jpg';
+import oOil from '../images/olives.jpg';
+import cocoOil from '../images/coconut.jpg';
+import canOil from '../images/lavender.jpg';
+import gOil from '../images/grapes.jpg';
+import Butter from '../images/butter.jpg';
 import './products.css';
 
 

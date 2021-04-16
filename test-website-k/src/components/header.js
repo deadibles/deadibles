@@ -9,7 +9,7 @@ import {
   NavbarText,
 } from 'reactstrap';
 import PropTypes from 'prop-types';
-import logo from '../images/LogoLong72.png';
+import logo from '../images/LogoLong72.jpg';
 import { NavLink as Link } from 'react-router-dom';
 import './header.css';
 

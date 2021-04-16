@@ -9,13 +9,13 @@ import {
   CarouselCaption,
   Button,
 } from 'reactstrap';
-import LB from '../../images/PurpleLemonBars.png';
-import Cake from '../../images/Cake.png';
+import LB from '../../images/PurpleLemonBars.jpg';
+import Cake from '../../images/Cake.jpg';
 import Gummy1 from '../../images/gummy1.jpeg';
 import Gummy2 from '../../images/gummy2.jpeg';
 import Gummy3 from '../../images/gummy3.jpeg';
 import Powder from '../../images/Powder.png';
-import Capsules from '../../images/Capsules.png';
+import Capsules from '../../images/Capsules.jpg';
 // import Choco1 from '../../images/choco1.jpg';
 import './index.styles.css';
 

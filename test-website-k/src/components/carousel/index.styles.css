@@ -55,7 +55,9 @@ section p {
 }
 
 .HomeBtn:hover {
-    color: #E6AF2E;
+    color: #E6AF2E !important;
+    background-color: #416032 !important;
+    border: 5px solid #4D2A5A !important;
 }
 
 .homeBDiv {

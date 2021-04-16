@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/deadibles/static/css/main.1b422f29.chunk.css",
-    "main.js": "/deadibles/static/js/main.78763482.chunk.js",
-    "main.js.map": "/deadibles/static/js/main.78763482.chunk.js.map",
-    "runtime-main.js": "/deadibles/static/js/runtime-main.ac872340.js",
-    "runtime-main.js.map": "/deadibles/static/js/runtime-main.ac872340.js.map",
-    "static/css/2.95217128.chunk.css": "/deadibles/static/css/2.95217128.chunk.css",
-    "static/js/2.30bb03b2.chunk.js": "/deadibles/static/js/2.30bb03b2.chunk.js",
-    "static/js/2.30bb03b2.chunk.js.map": "/deadibles/static/js/2.30bb03b2.chunk.js.map",
-    "static/js/3.55878b61.chunk.js": "/deadibles/static/js/3.55878b61.chunk.js",
-    "static/js/3.55878b61.chunk.js.map": "/deadibles/static/js/3.55878b61.chunk.js.map",
+    "main.css": "/deadibles/static/css/main.9ab1bfb3.chunk.css",
+    "main.js": "/deadibles/static/js/main.9a3e3d69.chunk.js",
+    "main.js.map": "/deadibles/static/js/main.9a3e3d69.chunk.js.map",
+    "runtime-main.js": "/deadibles/static/js/runtime-main.db079211.js",
+    "runtime-main.js.map": "/deadibles/static/js/runtime-main.db079211.js.map",
+    "static/css/2.8537f3a0.chunk.css": "/deadibles/static/css/2.8537f3a0.chunk.css",
+    "static/js/2.b0387ebc.chunk.js": "/deadibles/static/js/2.b0387ebc.chunk.js",
+    "static/js/2.b0387ebc.chunk.js.map": "/deadibles/static/js/2.b0387ebc.chunk.js.map",
+    "static/js/3.13fe0ea1.chunk.js": "/deadibles/static/js/3.13fe0ea1.chunk.js",
+    "static/js/3.13fe0ea1.chunk.js.map": "/deadibles/static/js/3.13fe0ea1.chunk.js.map",
     "index.html": "/deadibles/index.html",
-    "static/css/2.95217128.chunk.css.map": "/deadibles/static/css/2.95217128.chunk.css.map",
-    "static/css/main.1b422f29.chunk.css.map": "/deadibles/static/css/main.1b422f29.chunk.css.map",
-    "static/js/2.30bb03b2.chunk.js.LICENSE.txt": "/deadibles/static/js/2.30bb03b2.chunk.js.LICENSE.txt",
+    "static/css/2.8537f3a0.chunk.css.map": "/deadibles/static/css/2.8537f3a0.chunk.css.map",
+    "static/css/main.9ab1bfb3.chunk.css.map": "/deadibles/static/css/main.9ab1bfb3.chunk.css.map",
+    "static/js/2.b0387ebc.chunk.js.LICENSE.txt": "/deadibles/static/js/2.b0387ebc.chunk.js.LICENSE.txt",
     "static/media/index.css": "/deadibles/static/media/Bg.b4505d30.png",
     "static/media/Cake.263ed93a.jpg": "/deadibles/static/media/Cake.263ed93a.jpg",
     "static/media/Candy.58fb64df.jpg": "/deadibles/static/media/Candy.58fb64df.jpg",
@@ -39,10 +39,10 @@
     "static/media/vegetable.0c7fb7e8.jpg": "/deadibles/static/media/vegetable.0c7fb7e8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac872340.js",
-    "static/css/2.95217128.chunk.css",
-    "static/js/2.30bb03b2.chunk.js",
-    "static/css/main.1b422f29.chunk.css",
-    "static/js/main.78763482.chunk.js"
+    "static/js/runtime-main.db079211.js",
+    "static/css/2.8537f3a0.chunk.css",
+    "static/js/2.b0387ebc.chunk.js",
+    "static/css/main.9ab1bfb3.chunk.css",
+    "static/js/main.9a3e3d69.chunk.js"
   ]
 }

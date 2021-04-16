@@ -4,3 +4,13 @@
 .mNav:hover{
 color: #E6AF2E;
 }
+
+.brandLogo {
+    width: 25%;
+}
+
+@media only screen and (max-width: 800px) {
+    .brandLogo {
+        width: 65%;
+    }
+}

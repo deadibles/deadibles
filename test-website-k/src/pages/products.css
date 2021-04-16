@@ -50,7 +50,10 @@
     width: 90%;
   }
 }
-
+.newBtn{
+  color: #ECF0F1 !important;
+  background-color: #4D2A5A !important;
+}
 .newBtn:hover{
   color: #E6AF2E !important;
   background-color: #416032 !important;

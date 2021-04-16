@@ -32,7 +32,7 @@ const Header = (props) => {
                 <h1>Products</h1>
               </Link>
             </NavItem>
-            <NavbarBrand className='w-25'>
+            <NavbarBrand className='brandLogo'>
               <Link className='mNav' to='/home'>
                 <img style={s.img} src={logo} alt='logo' />
               </Link>

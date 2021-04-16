@@ -1,0 +1,27 @@
+.text {
+    color: #e7af2e;
+}
+
+.footer {
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-Color: #375a2a;
+    border-Top: 1px solid #e7af2e !important;
+}
+
+@media only screen and (max-height: 800px) {
+    .topButton {
+        display: none;
+    }
+}
+
+.topButton {
+    color: #ECF0F1 !important;
+    background-color: #4D2A5A !important;
+}
+
+.topButton:hover {
+    color: #E6AF2E !important;
+    background-color: #416032 !important;
+}

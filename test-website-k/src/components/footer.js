@@ -1,14 +1,27 @@
 import React from 'react';
-import {MDBContainer, MDBFooter } from 'mdbreact';
+import { Button } from 'reactstrap';
+import { MDBContainer, MDBFooter } from 'mdbreact';
+import { FaArrowCircleUp } from 'react-icons/fa';
+import './footer.css';
 
 const FooterPage = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: '0',
+      behavior: 'smooth',
+    });
+  };
+
   return (
-      <MDBFooter style={s.footer } className='font-small pt-4 mt-4'>
+    <MDBFooter style={s.footer} className='font-small pt-4 mt-4'>
       <MDBContainer fluid className='text-center text-md-left'></MDBContainer>
       <div className='footer-copyright text-center py-3'>
-        <MDBContainer fluid style = {s.text}>
+        <MDBContainer fluid style={s.text}>
           &copy; {new Date().getFullYear()} Deadibles:{' '}
         </MDBContainer>
+        <Button className='topButton' onClick={scrollToTop}>
+          <p className='topText'><FaArrowCircleUp /></p>
+        </Button>
       </div>
     </MDBFooter>
   );

@@ -24,7 +24,15 @@ import canOil from '../images/lavender.jpg';
 import gOil from '../images/grapes.jpg';
 import Butter from '../images/butter.jpg';
 import './products.css';
+import BackToTop from '../components/mobileB2T';
+import '../components/mobileB2T.css';
 
+const s = {
+  t: {
+    backgroundColor: '#4D2A5A !important',
+    color: '#ECF0F1 !important',
+  },
+};
 const items = [
   {
     img: Chocolate ,
@@ -118,6 +126,8 @@ const Products = ( props ) => {
   return (
     <div className='shop'>
       {products}
+
+      <BackToTop />
     </div>
   );
 };
@@ -174,5 +184,4 @@ CardTitle.propTypes = {
 };
 
 export default Products;
-
 

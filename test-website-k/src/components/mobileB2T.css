@@ -1,0 +1,37 @@
+.topContainer {
+    display: none;
+    z-index: 20;
+    position: fixed !important;
+    bottom: 50px !important;
+    right: 0px !important;
+
+}
+
+.topButton {
+    border: 2px solid gold;
+}
+
+.topLink {
+    text-decoration: none;
+}
+
+.topText {
+    color: white;
+    margin: 0px;
+}
+
+@media only screen and (min-height: 800px) {
+    .topContainer {
+        display: block;
+    }
+}
+
+.topButton {
+    color: #ECF0F1 !important;
+    background-color: #4D2A5A !important;
+}
+
+.topButton:hover {
+    color: #E6AF2E !important;
+    background-color: #416032 !important;
+}

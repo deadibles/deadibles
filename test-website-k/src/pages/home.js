@@ -2,11 +2,10 @@ import MyCara  from '../components/carousel/index';
 
 const Home = () => {
   return (
-    <body>
-      {/* <h1>Homepage</h1>
-      <MyCara /> */}
-    </body>
-  );
+    <div>
+      <MyCara />
+</div>
+ );
 };
 
 export default Home;

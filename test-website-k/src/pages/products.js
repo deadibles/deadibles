@@ -26,11 +26,12 @@ import Butter from '../images/butter.png';
 import './products.css';
 
 
+
 const Products = (props) => {
   return (
     <div className='shop'>
       {/* Chocolates  */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={Chocolate} alt='Chocolate' />
         <CardBody>
           <CardTitle tag='h5'>Chocolates</CardTitle>
@@ -40,13 +41,13 @@ const Products = (props) => {
             for fun shapes!
           </CardText>
           <Link className='button' to='/chocolate'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>
         </CardBody>
       </Card>
 
       {/* Gummies */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={Gummies} alt='Gummies' />
         <CardBody>
           <CardTitle tag='h5'>Gummies</CardTitle>
@@ -56,13 +57,13 @@ const Products = (props) => {
             (rings, animals, bottlecaps, etc)
           </CardText>
           <Link className='button' to='/gummies'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>
         </CardBody>
       </Card>
 
       {/*Candy */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={Candy} alt='Candy' />
         <CardBody>
           <CardTitle tag='h5'>Candy</CardTitle>
@@ -71,13 +72,13 @@ const Products = (props) => {
             Flavoring is currently: strawberry or lime, more coming soon!
           </CardText>
           <Link className='button' to='/candy'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>
         </CardBody>
       </Card>
 
       {/* Baked Goods */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={Baked} alt='Baked Goods' />
         <CardBody>
           <CardTitle tag='h5'>Baked Goods</CardTitle>
@@ -87,13 +88,13 @@ const Products = (props) => {
             servings to requesting an entire cake. More details in the future!
           </CardText>
           <Link className='button' to='/baked-goods'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>
         </CardBody>
       </Card>
 
       {/* Canna-Powder */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={Powder} alt='Canna-Powder' />
         <CardBody>
           <CardTitle tag='h5'>Canna-Powder</CardTitle>
@@ -103,13 +104,13 @@ const Products = (props) => {
             liquid, and your body absorbs it faster!
           </CardText>
           <Link className='button' to='/canna-powder'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>
         </CardBody>
       </Card>
 
       {/* Capsules */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={Capsules} alt='Canna-Capsules' />
         <CardBody>
           <CardTitle tag='h5'>Capsules</CardTitle>
@@ -119,37 +120,37 @@ const Products = (props) => {
             Tablets are water soluble so avoid moisture!!
           </CardText>
           <Link className='button' to='/capsules'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>
         </CardBody>
       </Card>
 
       {/* Butter */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={Butter} alt='Butter' />
         <CardBody>
           <CardTitle tag='h5'>Butter</CardTitle>
           <CardText>Cannabis infused salted butter (In stick form).</CardText>
           <Link className='button' to='/butter'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>
         </CardBody>
       </Card>
 
       {/* Vegetable Oil */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={vOil} alt='Vegetable Oil' />
         <CardBody>
           <CardTitle tag='h5'>Vegetable Oil</CardTitle>
           <CardText>Cannabis infused oil, using a vegetable oil base.</CardText>
           <Link className='button' to='/vegetable-oil'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>
         </CardBody>
       </Card>
 
       {/* Olive Oil */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={oOil} alt='Olive Oil' />
         <CardBody>
           <CardTitle tag='h5'>Olive Oil</CardTitle>
@@ -158,13 +159,13 @@ const Products = (props) => {
             olive oil, provided by your local grocer.
           </CardText>
           <Link className='button' to='/olive-oil'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>
         </CardBody>
       </Card>
 
       {/* Coconut Oil */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={cocoOil} alt='Coconut Oil' />
         <CardBody>
           <CardTitle tag='h5'>Coconut Oil</CardTitle>
@@ -174,13 +175,13 @@ const Products = (props) => {
             unfiltered coconut oil, so it has that coconuty taste!
           </CardText>
           <Link className='button' to='/coconut-oil'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>
         </CardBody>
       </Card>
 
       {/* Grapeseed Oil */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={gOil} alt='Grapeseed Oil' />
         <CardBody>
           <CardTitle tag='h5'>Grapeseed Oil</CardTitle>
@@ -189,19 +190,19 @@ const Products = (props) => {
             oriental dishes.
           </CardText>
           <Link className='button' to='/grapeseed-oil'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>{' '}
         </CardBody>
       </Card>
 
       {/* Canola Oil */}
-      <Card>
+      <Card className='newCard'>
         <CardImg top src={canOil} alt='Canola Oil' />
         <CardBody>
           <CardTitle tag='h5'>Canola Oil</CardTitle>
           <CardText>Cannabis infused oil, using a canola oil base.</CardText>
           <Link className='button' to='/canola-oil'>
-            <Button>Details</Button>
+            <Button className='newBtn'>Details</Button>
           </Link>{' '}
         </CardBody>
       </Card>
@@ -261,3 +262,5 @@ CardTitle.propTypes = {
 };
 
 export default Products;
+
+

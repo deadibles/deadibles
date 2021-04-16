@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import FAQ from '../pages/faq';
 import Products from '../pages/products';
 import Home from '../pages/home';
@@ -22,6 +22,8 @@ import Coconut from '../pages/cocoOil';
 const Main = () => {
     return (
       <div>
+        <Redirect from='/' to='/home' />
+        <Route path='/home' component= {Home} />
         <Route path='/products' component={Products} />
         <Route path='/faq' component={FAQ} />
         <Route path='/chocolate' component={Chocolates} />

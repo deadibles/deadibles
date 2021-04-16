@@ -10,7 +10,10 @@
     background-color: #ECF0F1 !important;
     border: 2px solid #e7af2e !important;
   }
-
+.card:hover{
+  background-color: #4D2A5A i !important;
+  color: #E6AF2E !important;
+}
 /* CardImage {
   width: 1rem;
 } */
@@ -48,3 +51,15 @@
   }
 }
 
+.newBtn:hover{
+  color: #E6AF2E !important;
+  background-color: #416032 !important;
+}
+.newCard:hover {
+  background-color: #E6AF2E !important;
+  color: #4D2A5A !important;
+}
+.newCard:hover p{
+  background-color: #E6AF2E !important;
+  color: #4D2A5A !important;
+}

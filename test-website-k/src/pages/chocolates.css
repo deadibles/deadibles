@@ -2,10 +2,14 @@
 img {
     width: 50%
 }
-.button, .button:hover, .button:link, .button:visited, .button:active {
+.button,  .button:link, .button:visited, .button:active {
     text-decoration: none;
     color: white;
 
+}
+.button:hover{
+    color: red i !important;
+    background-color: green i !important;
 }
 
 .container {
@@ -25,6 +29,13 @@ section p {
 }
 .butRef {
     margin: 20px !important;
+}
+.butRef:hover{
+
+  color: #E6AF2E !important;
+  background-color: #416032 !important;
+
+
 }
 .kari{
     display: flex;
@@ -62,3 +73,5 @@ section p {
         font-size: 1rem !important;
     }
 }
+
+

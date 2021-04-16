@@ -14,7 +14,7 @@ const backToTop = () => {
     return (
       <div className='topContainer'>
         <Button className='topButton' onClick={scrollToTop}>
-            <p className='topText'><FaArrowCircleUp /></p>
+            <p className='topText'><FaArrowCircleUp className='nIcon' /></p>
         </Button>
       </div>
     );

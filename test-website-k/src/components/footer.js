@@ -19,9 +19,9 @@ const FooterPage = () => {
         <MDBContainer fluid style={s.text}>
           &copy; {new Date().getFullYear()} Deadibles:{' '}
         </MDBContainer>
-        <Button className='topButton' onClick={scrollToTop}>
+        {/* <Button className='topButton' onClick={scrollToTop}>
           <p className='topText'><FaArrowCircleUp /></p>
-        </Button>
+        </Button> */}
       </div>
     </MDBFooter>
   );

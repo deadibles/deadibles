@@ -8,7 +8,7 @@
 }
 
 .topButton {
-    border: 2px solid gold;
+    
 }
 
 .topLink {
@@ -29,9 +29,21 @@
 .topButton {
     color: #ECF0F1 !important;
     background-color: #4D2A5A !important;
+    border: 2px solid #E6AF2E !important;
 }
 
-.topButton:hover {
+.topButton:hover .nIcon:hover {
     color: #E6AF2E !important;
     background-color: #416032 !important;
+    border: 2px solid #4D2A5A !important;
+}
+.nIcon{
+    color: #ECF0F1;
+    font-size: 2rem;
+}
+.nIcon :hover{
+    color: #E6AF2E;
+}
+.nIcon :visited, .nIcon:active {
+    color: #ECF0F1;
 }

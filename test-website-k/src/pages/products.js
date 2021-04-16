@@ -25,187 +25,99 @@ import gOil from '../images/grapes.jpg';
 import Butter from '../images/butter.jpg';
 import './products.css';
 
+const items = [
+  {
+    img: Chocolate ,
+    title: 'Chocolates',
+    body: 'Medicated chocolate! Can come in liquid, syrup or solid chocolates. May include seasonal themes and flavors, as well as use candy molds for fun shapes!',
+    link: '/chocolate',
+  },
+  {
+    img:  Gummies ,
+    title: 'Gummies',
+    body: 'Medicated gummies! Uses jello for a base and comes in standard jello flavors (strawberry, lime, orange, lemon, berry) and various shapes (rings, animals, bottlecaps, etc)',
+    link: '/gummies',
+  },
+  {
+    img: Candy ,
+    title: 'Candy',
+    body: 'Medicated candy! Comes in either lollipop or individual candy form. Flavoring is currently: strawberry or lime, more coming soon!',
+    link: '/candy',
+  },
+  {
+    img: Baked ,
+    title: 'Baked Goods',
+    body: 'Goods may vary, cookies/brownies will be regularly available with seasonal goods for holidays. Quantity ranges from individual servings to requesting an entire cake. More details in the future!',
+    link: '/baked-goods',
+  },
+  {
+    img: Powder ,
+    title: 'Canna-Powder',
+    body: 'Dehydrated Canna-Oil! Use it in place of oil, or on any heated dish to encorporate cannabis. Acts like a sugar so it dissolves in liquid, and your body absorbs it faster!',
+    link: '/canna-powder',
+  },
+  {
+    img: Capsules ,
+    title: 'Capsules',
+    body: 'Vegetable-based consumable capsules that have been filled with cannapowder. Microdose on the go without the mess of exposed powder! Tablets are water soluble so avoid moisture!!',
+    link: '/capsules',
+  },
+  {
+    img: Butter ,
+    title: 'Butter',
+    body: 'Cannabis infused salted butter (In stick form).',
+    link: '/butter',
+  },
+  {
+    img: vOil ,
+    title: 'Vegetable Oil',
+    body: 'Cannabis infused oil, using a vegetable oil base.',
+    link: '/vegetable-oil',
+  },
+  {
+    img: oOil,
+    title: 'Olive Oil',
+    body: 'Cannabis infused oil, using an olive oil base. Classic extra virgin olive oil, provided by your local grocer.',
+    link: '/olive-oil',
+  },
+  {
+    img: cocoOil,
+    title: 'Coconut Oil',
+    body: 'Cannabis infused oil, using a coconut oil base. Cannabis bonds best with coconut oil due to the high fat content, we use vegan, unfiltered coconut oil, so it has that coconuty taste!',
+    link: '/coconut-oil',
+  },
+  {
+    img: gOil,
+    title: 'Grapeseed Oil',
+    body: 'Cannabis infused oil, using a grape oil base. More commonly used for oriental dishes.',
+    link: '/grapeseed-oil',
+  },
+  {
+    img: canOil,
+    title: 'Canola Oil',
+    body: 'Cannabis infused oil, using a canola oil base.',
+    link: '/canola-oil',
+  },
 
+];
+const products = items.map( ( product ) => {
+   return(
+    <Card className='newCard'>
+      <CardImg top src={product.img} alt={product.title} />
+      <CardBody>
+        <CardTitle tag='h5'>{product.title}</CardTitle>
+        <CardText>{product.body}</CardText>
+        <Link className='button' to={product.link}>
+          <Button className='newBtn'>Details</Button>
+        </Link>
+      </CardBody>
+    </Card>
+)});
+const Products = ( props ) => {
 
-const Products = (props) => {
   return (
     <div className='shop'>
-      {/* Chocolates  */}
-      <Card className='newCard'>
-        <CardImg top src={Chocolate} alt='Chocolate' />
-        <CardBody>
-          <CardTitle tag='h5'>Chocolates</CardTitle>
-          <CardText>
-            Medicated chocolate! Can come in liquid, syrup or solid chocolates.
-            May include seasonal themes and flavors, as well as use candy molds
-            for fun shapes!
-          </CardText>
-          <Link className='button' to='/chocolate'>
-            <Button className='newBtn'>Details</Button>
-          </Link>
-        </CardBody>
-      </Card>
-
-      {/* Gummies */}
-      <Card className='newCard'>
-        <CardImg top src={Gummies} alt='Gummies' />
-        <CardBody>
-          <CardTitle tag='h5'>Gummies</CardTitle>
-          <CardText>
-            Medicated gummies! Uses jello for a base and comes in standard jello
-            flavors (strawberry, lime, orange, lemon, berry) and various shapes
-            (rings, animals, bottlecaps, etc)
-          </CardText>
-          <Link className='button' to='/gummies'>
-            <Button className='newBtn'>Details</Button>
-          </Link>
-        </CardBody>
-      </Card>
-
-      {/*Candy */}
-      <Card className='newCard'>
-        <CardImg top src={Candy} alt='Candy' />
-        <CardBody>
-          <CardTitle tag='h5'>Candy</CardTitle>
-          <CardText>
-            Medicated candy! Comes in either lollipop or individual candy form.
-            Flavoring is currently: strawberry or lime, more coming soon!
-          </CardText>
-          <Link className='button' to='/candy'>
-            <Button className='newBtn'>Details</Button>
-          </Link>
-        </CardBody>
-      </Card>
-
-      {/* Baked Goods */}
-      <Card className='newCard'>
-        <CardImg top src={Baked} alt='Baked Goods' />
-        <CardBody>
-          <CardTitle tag='h5'>Baked Goods</CardTitle>
-          <CardText>
-            Goods may vary, cookies/brownies will be regularly available with
-            seasonal goods for holidays. Quantity ranges from individual
-            servings to requesting an entire cake. More details in the future!
-          </CardText>
-          <Link className='button' to='/baked-goods'>
-            <Button className='newBtn'>Details</Button>
-          </Link>
-        </CardBody>
-      </Card>
-
-      {/* Canna-Powder */}
-      <Card className='newCard'>
-        <CardImg top src={Powder} alt='Canna-Powder' />
-        <CardBody>
-          <CardTitle tag='h5'>Canna-Powder</CardTitle>
-          <CardText>
-            Dehydrated Canna-Oil! Use it in place of oil, or on any heated dish
-            to encorporate cannabis. Acts like a sugar so it dissolves in
-            liquid, and your body absorbs it faster!
-          </CardText>
-          <Link className='button' to='/canna-powder'>
-            <Button className='newBtn'>Details</Button>
-          </Link>
-        </CardBody>
-      </Card>
-
-      {/* Capsules */}
-      <Card className='newCard'>
-        <CardImg top src={Capsules} alt='Canna-Capsules' />
-        <CardBody>
-          <CardTitle tag='h5'>Capsules</CardTitle>
-          <CardText>
-            Vegetable-based consumable capsules that have been filled with
-            cannapowder. Microdose on the go without the mess of exposed powder!
-            Tablets are water soluble so avoid moisture!!
-          </CardText>
-          <Link className='button' to='/capsules'>
-            <Button className='newBtn'>Details</Button>
-          </Link>
-        </CardBody>
-      </Card>
-
-      {/* Butter */}
-      <Card className='newCard'>
-        <CardImg top src={Butter} alt='Butter' />
-        <CardBody>
-          <CardTitle tag='h5'>Butter</CardTitle>
-          <CardText>Cannabis infused salted butter (In stick form).</CardText>
-          <Link className='button' to='/butter'>
-            <Button className='newBtn'>Details</Button>
-          </Link>
-        </CardBody>
-      </Card>
-
-      {/* Vegetable Oil */}
-      <Card className='newCard'>
-        <CardImg top src={vOil} alt='Vegetable Oil' />
-        <CardBody>
-          <CardTitle tag='h5'>Vegetable Oil</CardTitle>
-          <CardText>Cannabis infused oil, using a vegetable oil base.</CardText>
-          <Link className='button' to='/vegetable-oil'>
-            <Button className='newBtn'>Details</Button>
-          </Link>
-        </CardBody>
-      </Card>
-
-      {/* Olive Oil */}
-      <Card className='newCard'>
-        <CardImg top src={oOil} alt='Olive Oil' />
-        <CardBody>
-          <CardTitle tag='h5'>Olive Oil</CardTitle>
-          <CardText>
-            Cannabis infused oil, using an olive oil base. Classic extra virgin
-            olive oil, provided by your local grocer.
-          </CardText>
-          <Link className='button' to='/olive-oil'>
-            <Button className='newBtn'>Details</Button>
-          </Link>
-        </CardBody>
-      </Card>
-
-      {/* Coconut Oil */}
-      <Card className='newCard'>
-        <CardImg top src={cocoOil} alt='Coconut Oil' />
-        <CardBody>
-          <CardTitle tag='h5'>Coconut Oil</CardTitle>
-          <CardText>
-            Cannabis infused oil, using a coconut oil base. Cannabis bonds best
-            with coconut oil due to the high fat content, we use vegan,
-            unfiltered coconut oil, so it has that coconuty taste!
-          </CardText>
-          <Link className='button' to='/coconut-oil'>
-            <Button className='newBtn'>Details</Button>
-          </Link>
-        </CardBody>
-      </Card>
-
-      {/* Grapeseed Oil */}
-      <Card className='newCard'>
-        <CardImg top src={gOil} alt='Grapeseed Oil' />
-        <CardBody>
-          <CardTitle tag='h5'>Grapeseed Oil</CardTitle>
-          <CardText>
-            Cannabis infused oil, using a grape oil base. More commonly used for
-            oriental dishes.
-          </CardText>
-          <Link className='button' to='/grapeseed-oil'>
-            <Button className='newBtn'>Details</Button>
-          </Link>{' '}
-        </CardBody>
-      </Card>
-
-      {/* Canola Oil */}
-      <Card className='newCard'>
-        <CardImg top src={canOil} alt='Canola Oil' />
-        <CardBody>
-          <CardTitle tag='h5'>Canola Oil</CardTitle>
-          <CardText>Cannabis infused oil, using a canola oil base.</CardText>
-          <Link className='button' to='/canola-oil'>
-            <Button className='newBtn'>Details</Button>
-          </Link>{' '}
-        </CardBody>
-      </Card>
+      {products}
     </div>
   );
 };

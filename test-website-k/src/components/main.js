@@ -15,6 +15,7 @@ import Powder from '../pages/powder';
 import Capsules from '../pages/capsules';
 import Grapeseed from '../pages/gOil';
 import Coconut from '../pages/cocoOil';
+// import Recipe from '../pages/recipes';
 
 
 
@@ -23,7 +24,7 @@ const Main = () => {
     return (
       <div>
         <Redirect from='/' to='/home' />
-        <Route path='/home' component= {Home} />
+        <Route path='/home' component={Home} />
         <Route path='/products' component={Products} />
         <Route path='/faq' component={FAQ} />
         <Route path='/chocolate' component={Chocolates} />
@@ -38,6 +39,7 @@ const Main = () => {
         <Route path='/grapeseed-oil' component={Grapeseed} />
         <Route path='/coconut-oil' component={Coconut} />
         <Route path='/butter' component={Butter} />
+        {/* <Route path='/recipes' component={Recipe} /> */}
       </div>
     );
 };

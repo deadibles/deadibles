@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/deadibles/static/css/main.9ab1bfb3.chunk.css",
-    "main.js": "/deadibles/static/js/main.9a3e3d69.chunk.js",
-    "main.js.map": "/deadibles/static/js/main.9a3e3d69.chunk.js.map",
+    "main.css": "/deadibles/static/css/main.b87e44c8.chunk.css",
+    "main.js": "/deadibles/static/js/main.64bafb74.chunk.js",
+    "main.js.map": "/deadibles/static/js/main.64bafb74.chunk.js.map",
     "runtime-main.js": "/deadibles/static/js/runtime-main.db079211.js",
     "runtime-main.js.map": "/deadibles/static/js/runtime-main.db079211.js.map",
     "static/css/2.8537f3a0.chunk.css": "/deadibles/static/css/2.8537f3a0.chunk.css",
-    "static/js/2.b0387ebc.chunk.js": "/deadibles/static/js/2.b0387ebc.chunk.js",
-    "static/js/2.b0387ebc.chunk.js.map": "/deadibles/static/js/2.b0387ebc.chunk.js.map",
+    "static/js/2.75db171e.chunk.js": "/deadibles/static/js/2.75db171e.chunk.js",
+    "static/js/2.75db171e.chunk.js.map": "/deadibles/static/js/2.75db171e.chunk.js.map",
     "static/js/3.13fe0ea1.chunk.js": "/deadibles/static/js/3.13fe0ea1.chunk.js",
     "static/js/3.13fe0ea1.chunk.js.map": "/deadibles/static/js/3.13fe0ea1.chunk.js.map",
     "index.html": "/deadibles/index.html",
     "static/css/2.8537f3a0.chunk.css.map": "/deadibles/static/css/2.8537f3a0.chunk.css.map",
-    "static/css/main.9ab1bfb3.chunk.css.map": "/deadibles/static/css/main.9ab1bfb3.chunk.css.map",
-    "static/js/2.b0387ebc.chunk.js.LICENSE.txt": "/deadibles/static/js/2.b0387ebc.chunk.js.LICENSE.txt",
+    "static/css/main.b87e44c8.chunk.css.map": "/deadibles/static/css/main.b87e44c8.chunk.css.map",
+    "static/js/2.75db171e.chunk.js.LICENSE.txt": "/deadibles/static/js/2.75db171e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/deadibles/static/media/Bg.b4505d30.png",
     "static/media/Cake.263ed93a.jpg": "/deadibles/static/media/Cake.263ed93a.jpg",
-    "static/media/Candy.58fb64df.jpg": "/deadibles/static/media/Candy.58fb64df.jpg",
     "static/media/Capsules.85e19274.jpg": "/deadibles/static/media/Capsules.85e19274.jpg",
+    "static/media/Cupcake2.ab808824.jpeg": "/deadibles/static/media/Cupcake2.ab808824.jpeg",
+    "static/media/Cupcake3.9ade3bbf.jpeg": "/deadibles/static/media/Cupcake3.9ade3bbf.jpeg",
+    "static/media/Cupcakes.15d18b7a.jpeg": "/deadibles/static/media/Cupcakes.15d18b7a.jpeg",
     "static/media/Gummies.7b9e03aa.jpg": "/deadibles/static/media/Gummies.7b9e03aa.jpg",
     "static/media/LogoLong72.864cb92d.jpg": "/deadibles/static/media/LogoLong72.864cb92d.jpg",
     "static/media/Powder.1a3001a5.jpg": "/deadibles/static/media/Powder.1a3001a5.jpg",
@@ -41,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.db079211.js",
     "static/css/2.8537f3a0.chunk.css",
-    "static/js/2.b0387ebc.chunk.js",
-    "static/css/main.9ab1bfb3.chunk.css",
-    "static/js/main.9a3e3d69.chunk.js"
+    "static/js/2.75db171e.chunk.js",
+    "static/css/main.b87e44c8.chunk.css",
+    "static/js/main.64bafb74.chunk.js"
   ]
 }

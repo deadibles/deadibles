@@ -1,16 +1,16 @@
 import React from 'react';
-import { Button } from 'reactstrap';
+// import { Button } from 'reactstrap';
 import { MDBContainer, MDBFooter } from 'mdbreact';
-import { FaArrowCircleUp } from 'react-icons/fa';
+// import { FaArrowCircleUp } from 'react-icons/fa';
 import './footer.css';
 
 const FooterPage = () => {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: '0',
-      behavior: 'smooth',
-    });
-  };
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: '0',
+  //     behavior: 'smooth',
+  //   });
+  // };
 
   return (
     <MDBFooter style={s.footer} className='font-small pt-4 mt-4'>

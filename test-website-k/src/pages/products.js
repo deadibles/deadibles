@@ -13,7 +13,7 @@ import {
 import PropTypes from 'prop-types';
 import Gummies from '../images/Gummies.jpg';
 import Chocolate from '../images/chocolate.jpg';
-import Candy from '../images/Candy.jpg';
+// import Candy from '../images/Candy.jpg';
 import Baked from '../images/Cake.jpg';
 import Powder from '../images/Powder.jpg';
 import Capsules from '../images/Capsules.jpg';
@@ -27,12 +27,12 @@ import './products.css';
 import BackToTop from '../components/mobileB2T';
 import '../components/mobileB2T.css';
 
-const s = {
-  t: {
-    backgroundColor: '#4D2A5A !important',
-    color: '#ECF0F1 !important',
-  },
-};
+// const s = {
+//   t: {
+//     backgroundColor: '#4D2A5A !important',
+//     color: '#ECF0F1 !important',
+//   },
+// };
 const items = [
   {
     img: Chocolate ,
@@ -46,12 +46,12 @@ const items = [
     body: 'Medicated gummies! Uses jello for a base and comes in standard jello flavors (strawberry, lime, orange, lemon, berry) and various shapes (rings, animals, bottlecaps, etc)',
     link: '/gummies',
   },
-  {
-    img: Candy ,
-    title: 'Candy',
-    body: 'Medicated candy! Comes in either lollipop or individual candy form. Flavoring is currently: strawberry or lime, more coming soon!',
-    link: '/candy',
-  },
+  // {
+  //   img: Candy ,
+  //   title: 'Candy',
+  //   body: 'Medicated candy! Comes in either lollipop or individual candy form. Flavoring is currently: strawberry or lime, more coming soon!',
+  //   link: '/candy',
+  // },
   {
     img: Baked ,
     title: 'Baked Goods',

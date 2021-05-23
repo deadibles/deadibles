@@ -55,7 +55,7 @@ const items = [
   {
     img: Baked ,
     title: 'Baked Goods',
-    body: 'Goods may vary, cookies/brownies will be regularly available with seasonal goods for holidays. Quantity ranges from individual servings to requesting an entire cake. More details in the future!',
+    body: 'Goods may vary, cookies/brownies will be regularly available with seasonal goods for holidays. Quantity ranges from individual servings to requesting an entire cake. Click here to check out our baked good of the week!',
     link: '/baked-goods',
   },
   {

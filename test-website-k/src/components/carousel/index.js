@@ -17,6 +17,7 @@ import Gummy3 from '../../images/gummy3.jpeg';
 import Powder from '../../images/Powder.png';
 import Capsules from '../../images/Capsules.jpg';
 // import Choco1 from '../../images/choco1.jpg';
+import Cupcakes from '../../images/Cupcakes.jpeg';
 import './index.styles.css';
 
 const items = [
@@ -29,6 +30,11 @@ const items = [
     src: Cake,
     altText: 'Cinnamon Bundt Cake',
     caption: 'Cinnamon Bundt Cake',
+  },
+  {
+    src: Cupcakes,
+    altText: 'Spice Mini Cupcakes with Cream Cheese Frosting',
+    caption: 'Spice Mini Cupcakes with Cream Cheese Frosting',
   },
   {
     src: Gummy1,

@@ -1,7 +1,10 @@
 import React from 'react';
 import {NavLink as Link } from 'react-router-dom';
-// import { MDBRow, MDBCol } from 'mdbreact';
+import { MDBRow, MDBCol } from 'mdbreact';
 import { Button } from 'reactstrap';
+import Cupcakes from '../images/Cupcakes.jpeg';
+import Cupcakes2 from '../images/Cupcake2.jpeg';
+import Cupcakes3 from '../images/Cupcake3.jpeg';
 import './chocolates.css';
 const Baked = () => {
   return (
@@ -12,32 +15,24 @@ const Baked = () => {
         seasonal goods for holidays. Quantity ranges from individual servings to
         requesting an entire cake. More details in the future!
       </p>
-      {/* <MDBRow>
+      <MDBRow>
         <MDBCol md='4'>
-          <img src={Gummy1} alt='gummy-1' />
-          <h5 className='font-weight-bold my-4'>Bottle Caps</h5>
-          <p className='grey-text mb-md-0 mb-5'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Reprehenderit maiores aperiam minima assumenda deleniti hic.
-          </p>
+          <img src={Cupcakes} alt='Cupcakes' />
         </MDBCol>
         <MDBCol md='4'>
-          <img src={Gummy2} alt='gummy-2' />
-          <h5 className='font-weight-bold my-4'>Donuts / Rings</h5>
-          <p className='grey-text mb-md-0 mb-5'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Reprehenderit maiores aperiam minima assumenda deleniti hic.
-          </p>
+          <img src={Cupcakes2} alt='Cupcakes2' />
         </MDBCol>
         <MDBCol md='4'>
-          <img src={Gummy3} alt='gummy-3' />
-          <h5 className='font-weight-bold my-4'>Various Animals</h5>
-          <p className='grey-text mb-md-0 mb-5'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Reprehenderit maiores aperiam minima assumenda deleniti hic.
-          </p>
+          <img src={Cupcakes3} alt='Cupcakes3' />
         </MDBCol>
-      </MDBRow> */}
+      </MDBRow>
+      <h6 className='font-weight-bold my-4'>
+        Mini Spice Cupcakes with Cream Cheese Frosting
+      </h6>
+      <p>
+        This week of 5/23/2021 - 5/29/2021 we have medicated mini spice cupcakes
+        with cream cheese frosting.
+      </p>
       <Link className='button' to='/products'>
         <Button className='butRef'>Back to Products</Button>
       </Link>{' '}

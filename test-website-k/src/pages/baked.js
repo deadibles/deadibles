@@ -31,7 +31,7 @@ const Baked = () => {
       </h6>
       <p>
         This week of 5/23/2021 - 5/29/2021 we have medicated mini spice cupcakes
-        with cream cheese frosting.
+        with cream cheese frosting. Using our cannabis infused vegetable oil we made this delicious spice cake.
       </p>
       <Link className='button' to='/products'>
         <Button className='butRef'>Back to Products</Button>

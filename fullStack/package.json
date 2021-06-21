@@ -1,0 +1,38 @@
+{
+  "name": "deadibles",
+  "version": "1.0.0",
+  "description": "deadibles",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadibles/deadibles.git"
+  },
+  "keywords": [
+    "deadibles"
+  ],
+  "author": "KAsphodel, SAsphodel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deadibles/deadibles/issues"
+  },
+  "homepage": "https://github.com/deadibles/deadibles#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.2.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "validator": "^13.6.0"
+  }
+}

@@ -47,3 +47,52 @@ module.exports.register = ( req, res ) => {
             })
         } )
 }
+
+// login a user
+module.exports.login = async ( req, res ) => {
+    // deconstruct the email and password from the body
+    const { email, password } = req.body;
+    // if they are empty send a msg to the user
+    if ( !email || !password ) {
+        res.status( 400 ).json( { msg: 'Please enter all fields' } );
+    }
+    // Look up email in the database
+    User.findOne( { email } )
+        .then( user => {
+            // if there isn't a user with matching email send msg
+            if ( !user ) res.status( 400 ).json( { msg: 'User does not exist' } );
+
+            // Validate password
+            // use bcrypt to compare the password and hashed password
+            bcrypt.compare( password, user.password )
+                .then( isMatch => {
+                    // if password or email doesn't match return msg
+                    if ( !isMatch ) return res.status( 400 ).json( { msg: 'Invalid credentials' } );
+
+                    // sign the jwt like in register functon, return the token with the details of the user w/o the password
+                    jwt.sign(
+                        { id: user._id },
+                        config.get( 'jwtsecret' ),
+                        { expiresIn: 3600 },
+                        ( err, token ) => {
+                            if ( err ) throw err;
+                            res.json( {
+                                user: {
+                                    id: user._id,
+                                    name: user.name,
+                                    email: user.email
+                                }
+                            } );
+                        }
+                    )
+            })
+    })
+}
+
+// getting a user
+module.exports.getUser = ( req, res ) => {
+    // finds user by id then returns user without the password
+    User.findById( req.user.id )
+        .select( '-password' )
+        .then( user => res.json( user ) );
+}

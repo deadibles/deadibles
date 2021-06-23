@@ -1,3 +1,6 @@
 {
-    "dbURI": "mongodb+srv://kasphodel:HelloWorld1@deadibles.treok.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "dbURI": "mongodb+srv://kasphodel:HelloWorld1@deadibles.treok.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtsecret": "89306e741264905f02a1",
+    "StripePubKey": "pk_test_51J5cScLCP0E7tEINvQxOjV2R5WdzHe42q0WS0yj8fwZSIl2eF4P0puEFo9uaPG3hK312GFVIAiS8gUUdnt5lCJXn00K8nnkDYC",
+    "StripeAPIKey": "sk_test_51J5cScLCP0E7tEINVlWUbJFOaO92E4cNXjwxO2PUnJ9tXP8nasIFbbI3LVP5mMdQ1RlQ4zk8HiLLMtBp03ydamjj00FuPbzsST"
 }

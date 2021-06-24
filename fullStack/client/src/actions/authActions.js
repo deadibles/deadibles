@@ -33,7 +33,7 @@ export const register = ( { name, email, password } ) => dispatch => {
         } ) )
         .catch( err => {
             dispatch( returnErrors( err.response.data, err.response.status, 'REGISTER_FAILED' ) );
-            displatch( {
+            dispatch( {
                 type: REGISTER_FAIL
             } );
         } );

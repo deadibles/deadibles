@@ -3,7 +3,7 @@ import AppNavbar from './AppNavbar';
 import { Card, CardText, CardBody, CardTitle, CardSubtitle, Button, Alert, Container } from 'reactstrap';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { getCard, deleteFromCart } from '../actions/cartActions';
+import { getCart, deleteFromCart } from '../actions/cartActions';
 import Checkout from './Checkout';
 import { checkout } from '../actions/orderActions';
 

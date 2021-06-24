@@ -22,7 +22,7 @@ class AddItem extends Component {
         this.setState( { [ e.target.name ]: e.target.value } );
     }
 
-    onSubmit = ( e ) => {
+    onSubmit = async ( e ) => {
         e.preventDefault();
 
         const newItem = {

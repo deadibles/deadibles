@@ -1,6 +1,6 @@
 import { GET_ERRORS, CLEAR_ERRORS } from '../actions/types';
 
-const initialStae = {
+const initialState = {
     msg: {},
     status: null,
     id: null

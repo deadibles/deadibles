@@ -29,8 +29,8 @@ export default function ( state = initialState, action ) {
                 ...state,
                 items: state.items.map( item => {
                     if ( item._id === id ) {
-                        item = data
-                    }
+                       item = data
+                    } return data;
                 } )
             };
         case ITEMS_LOADING:
